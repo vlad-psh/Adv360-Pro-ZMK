@@ -35,11 +35,11 @@
         "&none",        "&none",        "&none",        "&none",        "&none",        "&none",                                                        "&none",                          "&none",                                          "&none",      "&none",           "&none",      "&none",      "&none",  "&none",
         "&none",        "&none",        "&none",        "&none",        "&none",                                       "&bl BL_INC", "&bl BL_DEC",      "&none",                     "&bl BL_TOG",      "&none",                  "&none",           "&bl BL_TOG", "&rgb_ug RGB_TOG", "&bl BL_INC", "&bl BL_DEC",  "&none"
     ], [
-       "&trans", "&trans", "&trans",           "&trans",            "&trans", "&trans",           "&trans",                                                                "&trans", "&trans",   "&trans",        "&trans",    "&trans",     "&trans", "&trans",
-       "&trans", "&trans", "&trans",           "&trans",            "&trans", "&trans",           "&trans",                                                                "&trans", "&trans",   "&trans",        "&trans",    "&trans",     "&trans", "&trans",
-       "&trans", "&trans", "&trans",           "&trans",            "&trans", "&trans",           "&trans",    "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&sk RCMD", "&sk RIGHT_ALT", "&sk RCTRL", "&sk RSHIFT", "&trans",
-       "&trans", "&trans", "&trans",           "&trans",            "&trans", "&trans",                                  "&trans",                     "&trans",                     "&trans",   "&trans",        "&trans",    "&trans",     "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&kp LEFT_BRACKET", "&kp RIGHT_BRACKET",                     "&trans", "&kp ENTER", "&trans",                     "&trans", "&trans", "&trans",             "&trans",        "&trans",    "&trans",     "&trans", "&trans"
+       "&trans", "&trans", "&trans", "&trans",               "&trans",                "&trans",           "&trans",                                                                "&trans", "&trans",   "&trans",        "&trans",    "&trans",     "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans",       "&kp LEFT_BRACE",       "&kp RIGHT_BRACE",           "&trans",                                                                "&trans", "&trans",   "&trans",        "&trans",    "&trans",     "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&kp LEFT_PARENTHESIS", "&kp RIGHT_PARENTHESIS",           "&trans",    "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&sk RCMD", "&sk RIGHT_ALT", "&sk RCTRL", "&sk RSHIFT", "&trans",
+       "&trans", "&trans", "&trans", "&trans",     "&kp LEFT_BRACKET",     "&kp RIGHT_BRACKET",                                  "&trans",                     "&trans",                     "&trans",   "&trans",        "&trans",    "&trans",     "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans",               "&trans",                                    "&trans", "&kp ENTER", "&trans",                     "&trans", "&trans", "&trans",             "&trans",        "&trans",    "&trans",     "&trans", "&trans"
     ]
   ]
 }
