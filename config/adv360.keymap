@@ -79,15 +79,15 @@
 
         layer_x_sym {
             bindings = <
- &trans  &kp F1     &kp F2                &kp F3                 &kp F4          &kp F5            &trans                                                     &trans  &kp F6    &kp F7         &kp F8     &kp F9     &kp F10  &trans
- &trans  &trans     &trans        &kp LEFT_BRACE        &kp RIGHT_BRACE          &trans            &trans                                                     &trans  &trans    &trans         &trans     &trans      &trans  &trans
- &trans  &trans  &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS       &kp MINUS            &trans     &trans  &trans                  &trans  &trans  &trans  &trans  &sk RCMD  &sk RIGHT_ALT  &sk RCTRL  &sk RSHIFT  &trans
- &trans  &trans   &kp PLUS      &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp UNDERSCORE                               &trans                  &trans                  &trans    &trans         &trans     &trans      &trans  &trans
- &trans  &trans     &trans                &trans                 &trans                            &trans  &kp ENTER  &trans                  &trans  &trans  &trans            &trans         &trans     &trans      &trans  &trans
+ &trans  &kp F1     &kp F2                &kp F3                 &kp F4          &kp F5            &trans                                                        &trans  &kp F6    &kp F7         &kp F8     &kp F9     &kp F10  &trans
+ &trans  &trans     &trans        &kp LEFT_BRACE        &kp RIGHT_BRACE          &trans            &trans                                                        &trans  &trans    &trans         &trans     &trans      &trans  &trans
+ &trans  &trans  &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS       &kp MINUS            &trans    &kp DEL     &trans                  &trans  &trans  &trans  &trans  &sk RCMD  &sk RIGHT_ALT  &sk RCTRL  &sk RSHIFT  &trans
+ &trans  &trans   &kp PLUS      &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp UNDERSCORE                               &kp PG_UP                  &trans                  &trans    &trans         &trans     &trans      &trans  &trans
+ &trans  &trans     &trans                &trans                 &trans                            &trans  &kp ENTER  &kp PG_DN                  &trans  &trans  &trans            &trans         &trans     &trans      &trans  &trans
             >;
         };
 
-        layer_Layer__5 {
+        layer_ctrl {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans               &trans                                                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans               &trans                                                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
