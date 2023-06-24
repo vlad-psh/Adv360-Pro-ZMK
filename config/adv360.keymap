@@ -17,7 +17,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/backlight.h>
-#include <dt-bindings/zmk/outputs.h>
 
 / {
   behaviors {
@@ -80,11 +79,11 @@
 
         layer_x_sym {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                     &trans  &trans    &trans         &trans     &trans      &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                     &trans  &trans    &trans         &trans     &trans      &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans     &trans  &trans                  &trans  &trans  &trans  &trans  &sk RCMD  &sk RIGHT_ALT  &sk RCTRL  &sk RSHIFT  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                               &trans                  &trans                  &trans    &trans         &trans     &trans      &trans  &trans
- &trans  &trans  &trans  &trans    &out                    &trans  &kp ENTER  &trans                  &trans  &trans  &trans            &trans         &trans     &trans      &trans  &trans
+ &trans  &trans  &trans            &trans             &trans  &trans            &trans                                                     &trans  &trans    &trans         &trans     &trans      &trans  &trans
+ &trans  &trans  &trans            &trans             &trans  &trans            &trans                                                     &trans  &trans    &trans         &trans     &trans      &trans  &trans
+ &trans  &trans  &trans            &trans             &trans  &trans            &trans     &trans  &trans                  &trans  &trans  &trans  &trans  &sk RCMD  &sk RIGHT_ALT  &sk RCTRL  &sk RSHIFT  &trans
+ &trans  &trans  &trans            &trans             &trans  &trans                               &trans                  &trans                  &trans    &trans         &trans     &trans      &trans  &trans
+ &trans  &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET                    &trans  &kp ENTER  &trans                  &trans  &trans  &trans            &trans         &trans     &trans      &trans  &trans
             >;
         };
 
