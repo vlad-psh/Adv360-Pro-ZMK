@@ -59,11 +59,11 @@
 
         layer_num_sym {
             bindings = <
- &trans          &kp F1           &kp F2                &kp F3                 &kp F4     &kp F5            &trans                                                  &trans     &kp F6        &kp F7        &kp F8        &kp F9       &kp F10  &kp F12
- &trans          &kp N1           &kp N2                &kp N3                 &kp N4     &kp N5            &trans                                                  &trans     &kp N6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0   &trans
- &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS   &kp EXCL            &trans  &trans  &trans                  &trans  &trans  &trans   &kp LEFT      &kp DOWN        &kp UP     &kp RIGHT         &none   &trans
- &trans           &none        &kp MINUS      &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp UNDER                            &trans                  &trans                  &kp EQUAL      &kp PLUS        &trans        &trans        &trans   &trans
- &trans          &trans           &trans                &trans                 &trans                       &trans  &trans  &trans                  &trans  &trans  &trans                   &trans        &trans        &trans        &trans   &trans
+ &trans          &kp F1                 &kp F2                &kp F3                 &kp F4     &kp F5                   &trans                                                         &trans     &kp F6        &kp F7        &kp F8        &kp F9       &kp F10  &kp F12
+ &trans          &kp N1                 &kp N2                &kp N3                 &kp N4     &kp N5                   &trans                                                         &trans     &kp N6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0   &trans
+ &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS   &kp EXCL                   &trans         &trans  &trans                  &trans  &trans  &trans   &kp LEFT      &kp DOWN        &kp UP     &kp RIGHT         &none   &trans
+ &trans           &none              &kp MINUS      &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp UNDER                                          &trans                  &trans                  &kp EQUAL      &kp PLUS        &trans        &trans        &trans   &trans
+ &trans          &trans  &macro_ctrl_shift_tab       &macro_ctrl_tab                 &trans                       &macro_ctrl_c  &macro_ctrl_v  &trans                  &trans  &trans  &trans                   &trans        &trans        &trans        &trans   &trans
             >;
         };
 
