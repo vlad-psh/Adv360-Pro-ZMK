@@ -1,3 +1,15 @@
+macro_ctlr_pgdn: macro_ctlr_pgdn{
+compatible = "zmk,behavior-macro";
+label = "macro_ctlr_pgdn";
+#binding-cells = <0>;
+bindings = <&sk LCTRL>, <&kp PG_DN>;
+};
+macro_ctrl_pgup: macro_ctrl_pgup{
+compatible = "zmk,behavior-macro";
+label = "macro_ctrl_pgup";
+#binding-cells = <0>;
+bindings = <&sk LCTRL>, <&kp PG_UP>;
+};
 macro_ctrl_shift_tab: macro_ctrl_shift_tab{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_shift_tab";
