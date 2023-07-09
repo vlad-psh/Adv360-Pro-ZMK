@@ -1,3 +1,9 @@
+macro_ctrl_shift_tab: macro_ctrl_shift_tab{
+compatible = "zmk,behavior-macro";
+label = "macro_ctrl_shift_tab";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp LSHFT>, <&kp TAB>;
+};
 macro_ctrl_tab: macro_ctrl_tab{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_tab";
