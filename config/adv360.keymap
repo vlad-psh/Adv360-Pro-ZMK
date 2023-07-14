@@ -15,7 +15,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/rgb.h>
 
 / {
@@ -49,17 +48,17 @@
 
         layer_mod {
             bindings = <
-  &none    &none    &none   &none   &none   &none                   &none                                                                                   &none   &none   &none            &none   &none    &none   &none
-  &none  &kp F11  &kp F12   &none   &none   &none            &bt BT_SEL 0                                                                                   &none   &none   &none            &none   &none    &none   &none
-  &none   &kp F1   &kp F2  &kp F3  &kp F4  &kp F5            &bt BT_SEL 1       &none  &bootloader                  &bootloader       &none                 &none  &kp F6  &kp F7           &kp F8  &kp F9  &kp F10   &none
-  &none    &none    &none   &none   &none   &none                                            &none                   &bl BL_INC                                     &none   &none            &none   &none    &none   &none
-  &none    &none    &none   &none   &none                           &none  &bt BT_CLR        &none                   &bl BL_DEC  &bl BL_TOG  &rgb_ug RGB_MEFS_CMD           &none  &rgb_ug RGB_TOG   &none    &none   &none
+  &none    &none    &none   &none   &none   &none              &bt BT_CLR                                                            &bt BT_CLR   &none   &none            &none   &none    &none   &none
+  &none  &kp F11  &kp F12   &none   &none   &none            &bt BT_SEL 0                                                                 &none   &none   &none            &none   &none    &none   &none
+  &none   &kp F1   &kp F2  &kp F3  &kp F4  &kp F5            &bt BT_SEL 1   &none  &bootloader                  &bootloader   &none       &none  &kp F6  &kp F7           &kp F8  &kp F9  &kp F10   &none
+  &none    &none    &none   &none   &none   &none                                        &none                        &none                       &none   &none            &none   &none    &none   &none
+  &none    &none    &none   &none   &none                           &none   &none        &none                        &none   &none       &none           &none  &rgb_ug RGB_TOG   &none    &none   &none
             >;
         };
 
         layer_num_sym {
             bindings = <
- &trans     &none          &none          &none          &none      &none            &trans                                                  &trans      &none     &none     &none      &none      &none    &none
+  &to 0     &none          &none          &none          &none      &none            &trans                                                  &trans      &none     &none     &none      &none      &none    &none
  &trans  &kp EXCL         &kp AT       &kp HASH       &kp DLLR  &kp PRCNT            &trans                                                  &trans  &kp CARET  &kp AMPS  &kp STAR  &kp GRAVE  &kp TILDE   &trans
  &trans    &kp N1         &kp N2         &kp N3         &kp N4     &kp N5            &trans  &trans  &trans                  &trans  &trans  &trans     &kp N6    &kp N7    &kp N8     &kp N9     &kp N0   &trans
  &trans     &none  &macro_ctrl_x  &macro_ctrl_c  &macro_ctrl_v      &none                            &trans                  &trans                      &none     &none    &trans     &trans     &trans  &kp DEL
@@ -69,7 +68,7 @@
 
         layer_arrows {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans            &trans    &trans  &trans            &trans  &trans  &trans
+  &to 0  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans            &trans    &trans  &trans            &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans            &trans    &trans  &trans            &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans          &kp LEFT  &kp DOWN  &kp UP         &kp RIGHT  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &macro_ctrl_pgup    &trans  &trans  &macro_ctlr_pgdn  &trans  &trans
