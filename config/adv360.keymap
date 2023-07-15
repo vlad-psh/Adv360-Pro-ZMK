@@ -68,11 +68,11 @@
 
         layer_arrows {
             bindings = <
-  &to 0  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans            &trans    &trans  &trans            &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans            &trans    &trans  &trans            &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans          &kp LEFT  &kp DOWN  &kp UP         &kp RIGHT  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &macro_ctrl_pgup    &trans  &trans  &macro_ctlr_pgdn  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                      &trans  &trans            &trans  &trans  &trans
+  &to 0         &trans         &trans         &trans         &trans  &trans            &trans                                                  &trans    &trans            &trans            &trans     &trans  &trans  &trans
+ &trans          &none          &none          &none          &none   &none            &trans                                                  &trans     &none             &none             &none      &none   &none  &trans
+ &trans  &macro_ctrl_a          &none          &none          &none   &none            &trans  &trans  &trans                  &trans  &trans  &trans  &kp LEFT          &kp DOWN            &kp UP  &kp RIGHT   &none  &trans
+ &trans  &macro_ctrl_z  &macro_ctrl_x  &macro_ctrl_c  &macro_ctrl_v   &none                            &trans                  &trans                     &none  &macro_ctrl_pgup  &macro_ctrl_pgup      &none   &none  &trans
+ &trans         &trans         &trans         &trans         &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                      &trans            &trans     &trans  &trans  &trans
             >;
         };
 

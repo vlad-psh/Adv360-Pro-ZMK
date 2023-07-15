@@ -1,3 +1,21 @@
+macro_ctrl_y: macro_ctrl_y{
+compatible = "zmk,behavior-macro";
+label = "macro_ctrl_y";
+#binding-cells = <0>;
+bindings = <&sk LCMD>, <&kp Y>;
+};
+macro_ctrl_z: macro_ctrl_z{
+compatible = "zmk,behavior-macro";
+label = "macro_ctrl_z";
+#binding-cells = <0>;
+bindings = <&sk LCMD>, <&kp Z>;
+};
+macro_ctrl_a: macro_ctrl_a{
+compatible = "zmk,behavior-macro";
+label = "macro_ctrl_a";
+#binding-cells = <0>;
+bindings = <&sk LCMD>, <&kp A>;
+};
 macro_ctlr_pgdn: macro_ctlr_pgdn{
 compatible = "zmk,behavior-macro";
 label = "macro_ctlr_pgdn";
