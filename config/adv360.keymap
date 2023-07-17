@@ -38,11 +38,11 @@
 
         default_layer {
             bindings = <
-    &none      &none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE   &none                &sl 1                                                                                &sl 1   &none  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS     &none          &none
-    &none      &kp Q             &kp W              &kp E           &kp R   &kp T            &kp PG_UP                                                                         &kp C_VOL_UP   &kp Y            &kp U                 &kp I                  &kp O     &kp P      &kp EQUAL
- &kp LCMD      &kp A             &kp S              &kp D           &kp F   &kp G            &kp PG_DN    &kp TAB  &kp LEFT_ALT                  &kp DELETE  &kp BACKSPACE     &kp C_VOL_DN   &kp H            &kp J                 &kp K                  &kp L  &kp SEMI        &kp SQT
-    &mo 3      &kp Z             &kp X              &kp C           &kp V   &kp B                                         &mo 2                       &none                                   &kp N            &kp M             &kp COMMA                &kp DOT  &kp FSLH  &kp BACKSPACE
- &kp CAPS  &kp GRAVE           &kp ESC              &none           &none                    &kp LCTRL  &kp SPACE     &kp ENTER                     &kp TAB          &mo 2  &kp RIGHT_SHIFT                &kp MINUS         &kp BACKSLASH               &kp EXCL     &none          &none
+    &none      &none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE   &none                &sl 1                                                                        &sl 1   &none  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS     &none          &none
+    &mo 2      &kp Q             &kp W              &kp E           &kp R   &kp T            &kp PG_UP                                                                 &kp C_VOL_UP   &kp Y            &kp U                 &kp I                  &kp O     &kp P      &kp EQUAL
+ &kp LCMD      &kp A             &kp S              &kp D           &kp F   &kp G            &kp PG_DN    &kp TAB    &kp LEFT_ALT                    &none   &none     &kp C_VOL_DN   &kp H            &kp J                 &kp K                  &kp L  &kp SEMI        &kp SQT
+    &mo 3      &kp Z             &kp X              &kp C           &kp V   &kp B                                  &kp LEFT_SHIFT                    &none                            &kp N            &kp M             &kp COMMA                &kp DOT  &kp FSLH  &kp BACKSPACE
+ &kp CAPS  &kp GRAVE           &kp ESC              &none           &none                    &kp LCTRL  &kp SPACE       &kp ENTER                  &kp TAB   &mo 2  &kp RIGHT_SHIFT                &kp MINUS         &kp BACKSLASH               &kp EXCL     &none          &none
             >;
         };
 
@@ -68,11 +68,11 @@
 
         layer_arrows {
             bindings = <
-  &to 0         &trans         &trans         &trans         &trans  &trans            &trans                                                  &trans    &trans            &trans            &trans     &trans  &trans  &trans
- &trans          &none          &none          &none          &none   &none            &trans                                                  &trans     &none             &none             &none      &none   &none  &trans
- &trans  &macro_ctrl_a          &none          &none          &none   &none            &trans  &trans  &trans                  &trans  &trans  &trans  &kp LEFT          &kp DOWN            &kp UP  &kp RIGHT   &none  &trans
- &trans  &macro_ctrl_z  &macro_ctrl_x  &macro_ctrl_c  &macro_ctrl_v   &none                            &trans                  &trans                     &none  &macro_ctrl_pgup  &macro_ctlr_pgdn      &none   &none  &trans
- &trans         &trans         &trans         &trans         &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                      &trans            &trans     &trans  &trans  &trans
+  &to 0         &trans          &trans         &trans         &trans  &trans            &trans                                                  &trans    &trans            &trans            &trans     &trans  &trans  &trans
+ &trans          &none           &none          &none          &none   &none            &trans                                                  &trans     &none             &none             &none      &none   &none  &trans
+ &trans  &macro_ctrl_a  &kp LEFT_SHIFT  &kp BACKSPACE     &kp DELETE   &none            &trans  &trans  &trans                  &trans  &trans  &trans  &kp LEFT          &kp DOWN            &kp UP  &kp RIGHT   &none  &trans
+ &trans  &macro_ctrl_z   &macro_ctrl_x  &macro_ctrl_c  &macro_ctrl_v   &none                            &trans                  &trans                     &none  &macro_ctrl_pgup  &macro_ctlr_pgdn      &none   &none  &trans
+ &trans         &trans          &trans         &trans         &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                      &trans            &trans     &trans  &trans  &trans
             >;
         };
 
