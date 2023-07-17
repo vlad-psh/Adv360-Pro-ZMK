@@ -72,7 +72,7 @@
  &trans          &none           &none      &kp ENTER          &none    &none            &trans                                                  &trans     &none             &none             &none      &none   &none  &trans
  &trans  &macro_ctrl_a  &kp LEFT_SHIFT  &kp BACKSPACE     &kp DELETE  &kp TAB            &trans  &trans  &trans                  &trans  &trans  &trans  &kp LEFT          &kp DOWN            &kp UP  &kp RIGHT   &none  &trans
  &trans  &macro_ctrl_z   &macro_ctrl_x  &macro_ctrl_c  &macro_ctrl_v    &none                            &trans                  &trans                     &none  &macro_ctrl_pgup  &macro_ctlr_pgdn      &none   &none  &trans
- &trans         &trans          &trans         &trans         &trans                     &trans  &trans  &trans                  &trans  &trans  &trans                      &trans            &trans     &trans  &trans  &trans
+ &trans         &trans          &trans         &trans         &trans                     &trans  &trans  &trans                  &trans   &mo 0  &trans                      &trans            &trans     &trans  &trans  &trans
             >;
         };
 
