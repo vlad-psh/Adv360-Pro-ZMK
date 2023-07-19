@@ -1,9 +1,18 @@
-mygresc: my_grave_escape {
+next_win: next_window {
     compatible = "zmk,behavior-mod-morph";
-    label = "GRAVE_ESCAPE";
+    label = "next_window_tab";
     #binding-cells = <0>;
-    bindings = <&kp ESC>, <&kp GRAVE>;
-    mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
+    bindings = <&kp LC(PG_DN)>, <&kp TAB>;
+    mods = <(MOD_LCTL)>;
+    keep-mods = <(MOD_LCTL)>;
+};
+prev_win: previous_window {
+    compatible = "zmk,behavior-mod-morph";
+    label = "previous_window_tab";
+    #binding-cells = <0>;
+    bindings = <&kp LC(PG_UP)>, <&kp LS(TAB)>;
+    mods = <(MOD_LCTL)>;
+    keep-mods = <(MOD_LCTL)>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
