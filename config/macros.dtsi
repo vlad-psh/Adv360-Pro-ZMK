@@ -1,3 +1,10 @@
+arr_bspc: arrow_layer_backspace {
+    compatible = "zmk,behavior-mod-morph";
+    label = "arrow_layer_backspace";
+    #binding-cells = <0>;
+    bindings = <&kp BSPC>, <&kp LG(BSPC)>;
+    mods = <(MOD_LCTL)>;
+};
 next_win: next_window {
     compatible = "zmk,behavior-mod-morph";
     label = "next_window_tab";
