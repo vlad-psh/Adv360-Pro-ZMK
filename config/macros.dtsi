@@ -5,19 +5,19 @@ arr_bspc: arrow_layer_backspace {
     bindings = <&kp BSPC>, <&kp LG(BSPC)>;
     mods = <(MOD_LCTL)>;
 };
-next_win: next_window {
+next_ww: next_workspace_window {
     compatible = "zmk,behavior-mod-morph";
-    label = "next_window_tab";
+    label = "next_workspace_window";
     #binding-cells = <0>;
-    bindings = <&kp LC(PG_DN)>, <&kp TAB>;
+    bindings = <&kp LC(RIGHT)>, <&kp TAB>;
     mods = <(MOD_LCTL)>;
     keep-mods = <(MOD_LCTL)>;
 };
-prev_win: previous_window {
+prev_ww: previous_workspace_window {
     compatible = "zmk,behavior-mod-morph";
-    label = "previous_window_tab";
+    label = "previous_workspace_window";
     #binding-cells = <0>;
-    bindings = <&kp LC(PG_UP)>, <&kp LS(TAB)>;
+    bindings = <&kp LC(LEFT)>, <&kp LS(TAB)>;
     mods = <(MOD_LCTL)>;
     keep-mods = <(MOD_LCTL)>;
 };
