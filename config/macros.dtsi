@@ -5,6 +5,13 @@ arr_bspc: arrow_layer_backspace {
     bindings = <&kp BSPC>, <&kp LG(BSPC)>;
     mods = <(MOD_LCTL)>;
 };
+eng_rus: eng_rus_layout_switcher {
+    compatible = "zmk,behavior-mod-morph";
+    label = "eng_rus_layout_switcher";
+    #binding-cells = <0>;
+    bindings = <&kp LG(LC(LS(E)))>, <&kp LG(LC(LS(R)))>;
+    mods = <(MOD_LSFT|MOD_LCTL)>;
+};
 morph_tab: morph_tab {
     compatible = "zmk,behavior-mod-morph";
     label = "morph_tab";
