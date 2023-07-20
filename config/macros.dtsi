@@ -9,14 +9,14 @@ morph_tab: morph_tab {
     compatible = "zmk,behavior-mod-morph";
     label = "morph_tab";
     #binding-cells = <0>;
-    bindings = <&kp TAB>, <&kp LC(PG_UP)>;
+    bindings = <&kp TAB>, <&kp LC(PG_DN)>;
     mods = <(MOD_LSFT)>;
 };
 morph_untab: morph_tab_reverse {
     compatible = "zmk,behavior-mod-morph";
     label = "morph_tab_reverse";
     #binding-cells = <0>;
-    bindings = <&kp LS(TAB)>, <&kp LC(PG_DN)>;
+    bindings = <&kp LS(TAB)>, <&kp LC(PG_UP)>;
     mods = <(MOD_LSFT)>;
 };
 macro_quotes: macro_quotes{
