@@ -40,9 +40,9 @@
             bindings = <
     &none      &none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET   &kp BACKSLASH        &none            &sl 1                                                                             &sl 1   &none         &kp EXCL       &kp LPAR        &kp RPAR     &none          &none
     &none      &kp Q             &kp W              &kp E           &kp R        &kp T        &kp PG_UP                                                                      &kp C_VOL_UP   &kp Y            &kp U          &kp I           &kp O     &kp P      &kp EQUAL
-&kp ENTER      &kp A             &kp S              &kp D           &kp F        &kp G        &kp PG_DN    &kp ENTER     &kp LALT                   &kp LALT    &kp LGUI     &kp C_VOL_DN   &kp H            &kp J          &kp K           &kp L  &kp SEMI        &kp SQT
+  &kp TAB      &kp A             &kp S              &kp D           &kp F        &kp G        &kp PG_DN    &kp ENTER     &kp LALT                   &kp LALT    &kp LGUI     &kp C_VOL_DN   &kp H            &kp J          &kp K           &kp L  &kp SEMI        &kp SQT
     &mo32      &kp Z             &kp X              &kp C           &kp V        &kp B                                    &kp ESC                  &kp ENTER                                &kp N            &kp M      &kp COMMA         &kp DOT  &kp FSLH      &arr_bspc
- &eng_rus  &kp GRAVE        &morph_tab       &morph_untab         &kp ESC              &stht LCTRL LCMD    &kp SPACE   &kp LSHIFT                  &kp ENTER   &moht 2 3   &kp LEFT_SHIFT                &kp MINUS          &none           &none     &none          &none
+ &eng_rus  &kp GRAVE           &kp ESC              &none           &none              &stht LCTRL LCMD    &kp SPACE   &kp LSHIFT                  &kp ENTER   &moht 2 3   &kp LEFT_SHIFT                    &none          &none       &kp MINUS     &none          &none
             >;
         };
 
@@ -71,7 +71,7 @@
   &to 0     &trans          &trans         &trans         &trans         &trans            &trans                                               &trans     &trans    &trans    &trans     &trans  &trans    &trans
  &trans      &none           &none          &none          &none          &none            &trans                                      &kp K_SCROLL_UP   &kp HOME &kp PG_DN &kp PG_UP    &kp END   &none    &trans
  &trans  &kp LG(A)  &kp LEFT_SHIFT      &arr_bspc        &kp DEL          &none            &trans  &trans  &trans       &trans  &trans &kp K_SCROLL_DOWN &kp LEFT  &kp DOWN    &kp UP  &kp RIGHT   &none    &trans
- &trans  &kp LG(Z)       &kp LG(X)      &kp LG(C)      &kp LG(V)      &kp LG(A)                            &trans       &trans                              &none     &none     &none      &none   &none &arr_bspc
+ &trans  &kp LG(Z)       &kp LG(X)      &kp LG(C)      &kp LG(V)      &kp LG(A)                            &trans       &trans                              &none     &none     &none      &none   &none    &trans
  &trans     &trans   &kp LC(PG_UP)  &kp LC(PG_DN)         &trans                           &trans  &trans  &trans       &trans   &none                     &trans    &trans    &trans     &trans  &trans    &trans
             >;
         };
