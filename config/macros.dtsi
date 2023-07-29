@@ -1,13 +1,3 @@
-moht: mo_hold_tap {
-    compatible = "zmk,behavior-hold-tap";
-    label = "mo_hold_tap";
-    #binding-cells = <2>;
-    flavor = "hold-preferred";
-    tapping-term-ms = <200>;
-    quick-tap-ms = <125>;
-    global-quick-tap;
-    bindings = <&mo>, <&mo>; // <HOLD> <TAP>
-};
 stht: sticky_hold_tap {
     compatible = "zmk,behavior-hold-tap";
     label = "sticky_hold_tap";
@@ -17,13 +7,6 @@ stht: sticky_hold_tap {
     quick-tap-ms = <125>;
     global-quick-tap;
     bindings = <&kp>, <&sk>; // <HOLD> <TAP>
-};
-td_ctrl_cmd: tap_dance_ctrl_cmd {
-    compatible = "zmk,behavior-tap-dance";
-    label = "tap_dance_ctrl_cmd";
-    #binding-cells = <0>;
-    tapping-term-ms = <200>;
-    bindings = <&kp LCTRL>, <&sk LCMD>;
 };
 mo32: mod_3_and_2 {
     compatible = "zmk,behavior-mod-morph";

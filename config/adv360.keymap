@@ -38,11 +38,11 @@
 
         default_layer {
             bindings = <
-    &none      &none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET   &kp BACKSLASH        &none            &sl 1                                                                             &sl 1   &none         &kp EXCL       &kp LPAR        &kp RPAR     &none          &none
-    &none      &kp Q             &kp W              &kp E           &kp R        &kp T        &kp PG_UP                                                                      &kp C_VOL_UP   &kp Y            &kp U          &kp I           &kp O     &kp P      &kp EQUAL
-  &kp TAB      &kp A             &kp S              &kp D           &kp F        &kp G        &kp PG_DN    &kp ENTER     &kp LALT                   &kp LALT   &kp ENTER     &kp C_VOL_DN   &kp H            &kp J          &kp K           &kp L  &kp SEMI        &kp SQT
-    &mo32      &kp Z             &kp X              &kp C           &kp V        &kp B                                    &kp ESC                      &none                                &kp N            &kp M      &kp COMMA         &kp DOT  &kp FSLH      &arr_bspc
- &eng_rus  &kp GRAVE           &kp ESC              &none           &none              &stht LCTRL LCMD    &kp SPACE   &kp LSHIFT                      &none   &moht 2 3   &kp LEFT_SHIFT                    &none          &none       &kp MINUS     &none          &none
+    &none      &none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET   &kp BACKSLASH    &kp LG(C)            &sl 1                                                                             &sl 1  &kp LG(V)         &kp EXCL       &kp LPAR        &kp RPAR     &none          &none
+    &none      &kp Q             &kp W              &kp E           &kp R        &kp T        &kp PG_UP                                                                      &kp C_VOL_UP      &kp Y            &kp U          &kp I           &kp O     &kp P      &kp EQUAL
+  &kp TAB      &kp A             &kp S              &kp D           &kp F        &kp G        &kp PG_DN    &kp ENTER     &kp LALT                   &kp LALT   &kp ENTER     &kp C_VOL_DN      &kp H            &kp J          &kp K           &kp L  &kp SEMI        &kp SQT
+    &mo32      &kp Z             &kp X              &kp C           &kp V        &kp B                                    &kp ESC                      &none                                   &kp N            &kp M      &kp COMMA         &kp DOT  &kp FSLH      &arr_bspc
+ &eng_rus  &kp GRAVE           &kp ESC              &none           &none              &stht LCTRL LCMD    &kp SPACE   &kp LSHIFT                      &none       &mo 2   &kp LEFT_SHIFT                   &kp ENTER          &none       &kp MINUS     &none          &none
             >;
         };
 
