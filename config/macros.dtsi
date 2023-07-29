@@ -1,3 +1,13 @@
+// mod-morph: https://zmk.dev/docs/behaviors/mod-morph
+//            mods: MOD_LGUI MOD_LSFT MOD_LCTL MOD_LALT
+// hold-tap:  https://zmk.dev/docs/behaviors/hold-tap
+ctrl_cx: ctrl_c_ctrl_x {
+    compatible = "zmk,behavior-mod-morph";
+    label = "ctrl_c_ctrl_x";
+    #binding-cells = <0>;
+    bindings = <&kp LG(C)>, <&kp LG(X)>;
+    mods = <(MOD_LSFT)>;
+};
 stht: sticky_hold_tap {
     compatible = "zmk,behavior-hold-tap";
     label = "sticky_hold_tap";
