@@ -1,6 +1,41 @@
 // mod-morph: https://zmk.dev/docs/behaviors/mod-morph
 //            mods: MOD_LGUI MOD_LSFT MOD_LCTL MOD_LALT
 // hold-tap:  https://zmk.dev/docs/behaviors/hold-tap
+ctrl_1: ctrl_1 {
+    compatible = "zmk,behavior-mod-morph";
+    label = "ctrl_1";
+    #binding-cells = <0>;
+    bindings = <&kp LC(N1)>, <&kp LG(N1)>;
+    mods = <(MOD_LCTL)>;
+};
+ctrl_2: ctrl_2 {
+    compatible = "zmk,behavior-mod-morph";
+    label = "ctrl_2";
+    #binding-cells = <0>;
+    bindings = <&kp LC(N2)>, <&kp LG(N2)>;
+    mods = <(MOD_LCTL)>;
+};
+ctrl_3: ctrl_3 {
+    compatible = "zmk,behavior-mod-morph";
+    label = "ctrl_3";
+    #binding-cells = <0>;
+    bindings = <&kp LC(N3)>, <&kp LG(N3)>;
+    mods = <(MOD_LCTL)>;
+};
+ctrl_4: ctrl_4 {
+    compatible = "zmk,behavior-mod-morph";
+    label = "ctrl_4";
+    #binding-cells = <0>;
+    bindings = <&kp LC(N4)>, <&kp LG(N4)>;
+    mods = <(MOD_LCTL)>;
+};
+ctrl_5: ctrl_5 {
+    compatible = "zmk,behavior-mod-morph";
+    label = "ctrl_5";
+    #binding-cells = <0>;
+    bindings = <&kp LC(N5)>, <&kp LG(N5)>;
+    mods = <(MOD_LCTL)>;
+};
 up_pgup: up_page_up {
     compatible = "zmk,behavior-mod-morph";
     label = "up_page_up";
