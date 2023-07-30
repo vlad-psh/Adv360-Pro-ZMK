@@ -1,0 +1,6 @@
+compatible = "zmk,combos";
+combo_enter {
+    timeout-ms = <50>;
+    key-positions = <65 66>; // LThumb: mod+space
+    bindings = <&kp ENTER>;
+};
