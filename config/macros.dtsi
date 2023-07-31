@@ -1,3 +1,33 @@
+macro_yh: macro_ctrl_y_ctrl_h {
+  compatible = "zmk,behavior-macro";
+  label = "macro_ctrl_y_ctrl_h";
+  #binding-cells = <0>;
+  bindings = <&kp LC(Y)>, <&kp LC(H)>;
+};
+macro_yj: macro_ctrl_y_ctrl_j {
+  compatible = "zmk,behavior-macro";
+  label = "macro_ctrl_y_ctrl_j";
+  #binding-cells = <0>;
+  bindings = <&kp LC(Y)>, <&kp LC(J)>;
+};
+macro_yk: macro_ctrl_y_ctrl_k {
+  compatible = "zmk,behavior-macro";
+  label = "macro_ctrl_y_ctrl_k";
+  #binding-cells = <0>;
+  bindings = <&kp LC(Y)>, <&kp LC(K)>;
+};
+macro_yl: macro_ctrl_y_ctrl_l {
+  compatible = "zmk,behavior-macro";
+  label = "macro_ctrl_y_ctrl_l";
+  #binding-cells = <0>;
+  bindings = <&kp LC(Y)>, <&kp LC(L)>;
+};
+macro_ysemi: macro_ctrl_y_ctrl_semi {
+  compatible = "zmk,behavior-macro";
+  label = "macro_ctrl_y_ctrl_semi";
+  #binding-cells = <0>;
+  bindings = <&kp LC(Y)>, <&kp LC(SEMI)>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
