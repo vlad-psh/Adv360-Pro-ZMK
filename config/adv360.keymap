@@ -62,10 +62,10 @@
         layer_arrows {
             bindings = <
   &to 0     &trans          &trans         &trans         &trans         &trans            &trans                                               &trans        &trans         &trans        &trans         &trans          &trans    &trans
- &trans      &none           &none          &none          &none          &none            &trans                                      &kp K_SCROLL_UP         &none          &none         &none          &none           &none    &trans
- &trans  &kp LG(A)  &kp LEFT_SHIFT      &arr_bspc        &kp DEL          &none            &trans  &trans  &trans       &trans  &trans &kp K_SCROLL_DOWN   &macro_yh      &macro_yj     &macro_yk      &macro_yl    &macro_ysemi    &trans
- &trans  &kp LG(Z)       &kp LG(X)      &kp LG(C)      &kp LG(V)      &kp LG(A)                            &trans       &trans                                 &none        &ctrl_1       &ctrl_2        &ctrl_3         &ctrl_4    &trans
- &trans     &trans          &trans         &trans         &trans                           &trans  &trans  &trans       &trans   &none                                       &trans        &trans         &trans          &trans    &trans
+ &trans      &none       &kp LG(W)         &kp UP      &kp LG(R)      &kp LG(T)            &trans                                      &kp K_SCROLL_UP         &none          &none         &none          &none           &none    &trans
+ &trans  &kp LG(A)        &kp LEFT       &kp DOWN      &kp RIGHT          &none            &trans  &trans  &trans       &trans  &trans &kp K_SCROLL_DOWN   &macro_yh      &macro_yj     &macro_yk      &macro_yl    &macro_ysemi    &trans
+ &trans  &kp LG(Z)       &kp LG(X)      &kp LG(C)      &kp LG(V)          &none                            &trans       &trans                                 &none        &ctrl_1       &ctrl_2        &ctrl_3         &ctrl_4    &trans
+ &trans     &trans          &trans         &trans         &trans                           &trans  &trans  &trans       &trans   &none                                       &trans      &kp BSPC        &kp DEL          &trans    &trans
             >;
         };
 
