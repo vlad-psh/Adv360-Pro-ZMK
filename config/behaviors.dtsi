@@ -71,16 +71,6 @@ ctrl_cx: ctrl_c_ctrl_x {
     bindings = <&kp LG(C)>, <&kp LG(X)>;
     mods = <(MOD_LSFT)>;
 };
-stht: sticky_hold_tap {
-    compatible = "zmk,behavior-hold-tap";
-    label = "sticky_hold_tap";
-    #binding-cells = <2>;
-    flavor = "hold-preferred";
-    tapping-term-ms = <200>;
-    quick-tap-ms = <125>;
-    global-quick-tap;
-    bindings = <&kp>, <&sk>; // <HOLD> <TAP>
-};
 mo32: mod_3_and_2 {
     compatible = "zmk,behavior-mod-morph";
     label = "mod_3_and_2";

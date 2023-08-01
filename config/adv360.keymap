@@ -31,11 +31,11 @@
 
         default_layer {
             bindings = <
-    &none      &none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET   &kp BACKSLASH     &ctrl_cx            &sl 1                                                                             &sl 1  &kp LG(V)         &kp EXCL       &kp LPAR        &kp RPAR     &none          &none
-    &none      &kp Q             &kp W              &kp E           &kp R        &kp T        &kp PG_UP                                                                      &kp C_VOL_UP      &kp Y            &kp U          &kp I           &kp O     &kp P      &kp EQUAL
-  &kp TAB      &kp A             &kp S              &kp D           &kp F        &kp G        &kp PG_DN        &mo 2     &kp LALT                   &kp LALT       &none     &kp C_VOL_DN      &kp H            &kp J          &kp K           &kp L  &kp SEMI        &kp SQT
-    &mo 3      &kp Z             &kp X              &kp C           &kp V        &kp B                                    &kp ESC                      &none                                   &kp N            &kp M      &kp COMMA         &kp DOT  &kp FSLH          &none
- &eng_rus  &kp GRAVE           &kp ESC         &left_home      &right_end              &stht LCTRL LCMD    &kp SPACE   &kp LSHIFT                      &none       &mo 2   &kp LEFT_SHIFT                    &dn_pgdn       &up_pgup       &kp MINUS     &none          &none
+    &none      &none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET   &kp BACKSLASH     &ctrl_cx            &sl 1                                                                     &sl 1  &kp LG(V)         &kp EXCL       &kp LPAR        &kp RPAR     &none          &none
+    &none      &kp Q             &kp W              &kp E           &kp R        &kp T        &kp PG_UP                                                              &kp C_VOL_UP      &kp Y            &kp U          &kp I           &kp O     &kp P      &kp EQUAL
+  &kp TAB      &kp A             &kp S              &kp D           &kp F        &kp G        &kp PG_DN        &mo 2     &kp LALT           &kp LALT       &none     &kp C_VOL_DN      &kp H            &kp J          &kp K           &kp L  &kp SEMI        &kp SQT
+    &mo 3      &kp Z             &kp X              &kp C           &kp V        &kp B                                      &none              &none                                   &kp N            &kp M      &kp COMMA         &kp DOT  &kp FSLH          &none
+ &eng_rus  &kp GRAVE           &kp ESC         &left_home      &right_end                     &kp LCTRL    &kp SPACE     &kp LGUI           &kp LGUI       &mo 2   &kp LEFT_SHIFT                    &dn_pgdn       &up_pgup       &kp MINUS     &none          &none
             >;
         };
 
