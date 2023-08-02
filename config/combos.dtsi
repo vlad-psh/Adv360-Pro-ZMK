@@ -9,3 +9,9 @@ combo_enter {
     key-positions = <65 66>; // LThumb: ctrl+space
     bindings = <&kp ENTER>;
 };
+combo_mo_arrow {
+    timeout-ms = <50>;
+    slow-release;
+    key-positions = <65 69>; // CTRL+{numbers}
+    bindings = <&mo 3>;
+};
