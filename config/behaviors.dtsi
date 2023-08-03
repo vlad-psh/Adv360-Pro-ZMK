@@ -1,6 +1,34 @@
 // mod-morph: https://zmk.dev/docs/behaviors/mod-morph
 //            mods: MOD_LGUI MOD_LSFT MOD_LCTL MOD_LALT
 // hold-tap:  https://zmk.dev/docs/behaviors/hold-tap
+arr_up: arrow_layer_up {
+    compatible = "zmk,behavior-mod-morph";
+    label = "arrow_layer_up";
+    #binding-cells = <0>;
+    bindings = <&kp UP>, <&kp PGUP>;
+    mods = <(MOD_LCTL)>;
+};
+arr_down: arrow_layer_down {
+    compatible = "zmk,behavior-mod-morph";
+    label = "arrow_layer_down";
+    #binding-cells = <0>;
+    bindings = <&kp DOWN>, <&kp PGDN>;
+    mods = <(MOD_LCTL)>;
+};
+arr_left: arrow_layer_left {
+    compatible = "zmk,behavior-mod-morph";
+    label = "arrow_layer_left";
+    #binding-cells = <0>;
+    bindings = <&kp LEFT>, <&kp HOME>;
+    mods = <(MOD_LCTL)>;
+};
+arr_right: arrow_layer_right {
+    compatible = "zmk,behavior-mod-morph";
+    label = "arrow_layer_right";
+    #binding-cells = <0>;
+    bindings = <&kp RIGHT>, <&kp END>;
+    mods = <(MOD_LCTL)>;
+};
 ctrl_1: ctrl_1 {
     compatible = "zmk,behavior-mod-morph";
     label = "ctrl_1";
