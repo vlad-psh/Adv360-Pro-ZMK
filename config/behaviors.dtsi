@@ -1,115 +1,101 @@
 // mod-morph: https://zmk.dev/docs/behaviors/mod-morph
-//            mods: MOD_LGUI MOD_LSFT MOD_LCTL MOD_LALT
+//            mods: MOD_LGUI MOD_LSFT MOD_LGUI MOD_LALT
 // hold-tap:  https://zmk.dev/docs/behaviors/hold-tap
 arr_up: arrow_layer_up {
     compatible = "zmk,behavior-mod-morph";
     label = "arrow_layer_up";
     #binding-cells = <0>;
     bindings = <&kp UP>, <&kp PGUP>;
-    mods = <(MOD_LCTL)>;
+    mods = <(MOD_LGUI)>;
 };
 arr_down: arrow_layer_down {
     compatible = "zmk,behavior-mod-morph";
     label = "arrow_layer_down";
     #binding-cells = <0>;
     bindings = <&kp DOWN>, <&kp PGDN>;
-    mods = <(MOD_LCTL)>;
+    mods = <(MOD_LGUI)>;
 };
 arr_left: arrow_layer_left {
     compatible = "zmk,behavior-mod-morph";
     label = "arrow_layer_left";
     #binding-cells = <0>;
     bindings = <&kp LEFT>, <&kp HOME>;
-    mods = <(MOD_LCTL)>;
+    mods = <(MOD_LGUI)>;
 };
 arr_right: arrow_layer_right {
     compatible = "zmk,behavior-mod-morph";
     label = "arrow_layer_right";
     #binding-cells = <0>;
     bindings = <&kp RIGHT>, <&kp END>;
-    mods = <(MOD_LCTL)>;
+    mods = <(MOD_LGUI)>;
 };
 ctrl_1: ctrl_1 {
     compatible = "zmk,behavior-mod-morph";
     label = "ctrl_1";
     #binding-cells = <0>;
     bindings = <&kp LG(N1)>, <&kp LC(N1)>;
-    mods = <(MOD_LCTL)>;
+    mods = <(MOD_LGUI)>;
 };
 ctrl_2: ctrl_2 {
     compatible = "zmk,behavior-mod-morph";
     label = "ctrl_2";
     #binding-cells = <0>;
     bindings = <&kp LG(N2)>, <&kp LC(N2)>;
-    mods = <(MOD_LCTL)>;
+    mods = <(MOD_LGUI)>;
 };
 ctrl_3: ctrl_3 {
     compatible = "zmk,behavior-mod-morph";
     label = "ctrl_3";
     #binding-cells = <0>;
     bindings = <&kp LG(N3)>, <&kp LC(N3)>;
-    mods = <(MOD_LCTL)>;
+    mods = <(MOD_LGUI)>;
 };
 ctrl_4: ctrl_4 {
     compatible = "zmk,behavior-mod-morph";
     label = "ctrl_4";
     #binding-cells = <0>;
     bindings = <&kp LG(N4)>, <&kp LC(N4)>;
-    mods = <(MOD_LCTL)>;
+    mods = <(MOD_LGUI)>;
 };
 up_pgup: up_page_up {
     compatible = "zmk,behavior-mod-morph";
     label = "up_page_up";
     #binding-cells = <0>;
     bindings = <&kp UP>, <&kp PGUP>;
-    mods = <(MOD_LCTL)>;
+    mods = <(MOD_LGUI)>;
 };
 dn_pgdn: down_page_down {
     compatible = "zmk,behavior-mod-morph";
     label = "down_page_down";
     #binding-cells = <0>;
     bindings = <&kp DOWN>, <&kp PGDN>;
-    mods = <(MOD_LCTL)>;
+    mods = <(MOD_LGUI)>;
 };
 left_home: left_home {
     compatible = "zmk,behavior-mod-morph";
     label = "left_home";
     #binding-cells = <0>;
     bindings = <&kp LEFT>, <&kp HOME>;
-    mods = <(MOD_LCTL)>;
+    mods = <(MOD_LGUI)>;
 };
 right_end: right_end {
     compatible = "zmk,behavior-mod-morph";
     label = "right_end";
     #binding-cells = <0>;
     bindings = <&kp RIGHT>, <&kp END>;
-    mods = <(MOD_LCTL)>;
-};
-ctrl_cx: ctrl_c_ctrl_x {
-    compatible = "zmk,behavior-mod-morph";
-    label = "ctrl_c_ctrl_x";
-    #binding-cells = <0>;
-    bindings = <&kp LG(C)>, <&kp LG(X)>;
-    mods = <(MOD_LSFT)>;
-};
-mo32: mod_3_and_2 {
-    compatible = "zmk,behavior-mod-morph";
-    label = "mod_3_and_2";
-    #binding-cells = <0>;
-    bindings = <&mo 3>, <&mo 2>;
-    mods = <(MOD_LCTL)>;
+    mods = <(MOD_LGUI)>;
 };
 arr_bspc: arrow_layer_backspace {
     compatible = "zmk,behavior-mod-morph";
     label = "arrow_layer_backspace";
     #binding-cells = <0>;
     bindings = <&kp BSPC>, <&kp LG(BSPC)>;
-    mods = <(MOD_LCTL)>;
+    mods = <(MOD_LGUI)>;
 };
 eng_rus: eng_rus_layout_switcher {
     compatible = "zmk,behavior-mod-morph";
     label = "eng_rus_layout_switcher";
     #binding-cells = <0>;
     bindings = <&kp LG(LC(LS(E)))>, <&kp LG(LC(LS(R)))>;
-    mods = <(MOD_LSFT|MOD_LCTL)>;
+    mods = <(MOD_LSFT|MOD_LGUI)>;
 };
