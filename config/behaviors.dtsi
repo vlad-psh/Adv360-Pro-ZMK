@@ -1,6 +1,34 @@
 // mod-morph: https://zmk.dev/docs/behaviors/mod-morph
 //            mods: MOD_LGUI MOD_LSFT MOD_LCTL MOD_LALT
 // hold-tap:  https://zmk.dev/docs/behaviors/hold-tap
+up_pgup: up_page_up {
+    compatible = "zmk,behavior-mod-morph";
+    label = "up_page_up";
+    #binding-cells = <0>;
+    bindings = <&kp UP>, <&kp PGUP>;
+    mods = <(MOD_LCTL)>;
+};
+dn_pgdn: down_page_down {
+    compatible = "zmk,behavior-mod-morph";
+    label = "down_page_down";
+    #binding-cells = <0>;
+    bindings = <&kp DOWN>, <&kp PGDN>;
+    mods = <(MOD_LCTL)>;
+};
+left_home: left_home {
+    compatible = "zmk,behavior-mod-morph";
+    label = "left_home";
+    #binding-cells = <0>;
+    bindings = <&kp LEFT>, <&kp HOME>;
+    mods = <(MOD_LCTL)>;
+};
+right_end: right_end {
+    compatible = "zmk,behavior-mod-morph";
+    label = "right_end";
+    #binding-cells = <0>;
+    bindings = <&kp RIGHT>, <&kp END>;
+    mods = <(MOD_LCTL)>;
+};
 ctrl_cx: ctrl_c_ctrl_x {
     compatible = "zmk,behavior-mod-morph";
     label = "ctrl_c_ctrl_x";
