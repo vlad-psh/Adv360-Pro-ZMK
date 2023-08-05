@@ -35,17 +35,17 @@
     &none      &kp Q             &kp W              &kp E           &kp R        &kp T        &kp PG_UP                                                              &kp C_VOL_UP      &kp Y            &kp U          &kp I           &kp O     &kp P      &kp EQUAL
   &kp TAB      &kp A             &kp S              &kp D           &kp F        &kp G        &kp PG_DN        &mo 2     &kp LALT           &kp LALT       &none     &kp C_VOL_DN      &kp H            &kp J          &kp K           &kp L  &kp SEMI        &kp SQT
     &mo 3      &kp Z             &kp X              &kp C           &kp V        &kp B                                      &none              &none                                   &kp N            &kp M      &kp COMMA         &kp DOT  &kp FSLH          &none
- &eng_rus  &kp GRAVE           &kp ESC         &left_home      &right_end                      &kp LGUI    &kp SPACE    &kp LCTRL           &kp LGUI       &mo 2   &kp LEFT_SHIFT                    &dn_pgdn       &up_pgup       &kp MINUS     &none          &none
+ &eng_rus  &kp GRAVE           &kp ESC         &left_home      &right_end                      &kp LGUI    &kp SPACE    &kp LCTRL           &kp LGUI       &mo 2   &kp LEFT_SHIFT                    &kp BSPC        &kp DEL       &kp MINUS     &none          &none
             >;
         };
 
         layer_mod {
             bindings = <
-  &none    &none    &none  &kp LS(LG(NUMBER_3))  &kp LS(LG(NUMBER_4))   &none                   &none                                                                 &none   &none   &none   &none   &none    &none       &none
-  &none  &kp F11  &kp F12                 &none                 &none   &none            &bt BT_SEL 0                                                                 &none   &none   &none   &none   &none    &none       &none
-  &none   &kp F1   &kp F2                &kp F3                &kp F4  &kp F5            &bt BT_SEL 1  &bt BT_CLR  &bootloader                  &bootloader   &none   &none  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10       &none
- &tog 3    &none    &none                 &none                 &none   &none                                            &none                        &none                   &none   &none   &none   &none    &none       &none
-  &none    &none    &none                 &none                 &none                           &none       &none        &none                        &none   &to 2   &none           &none   &none   &none    &none  &bl BL_TOG
+  &none    &none    &none  &kp LS(LG(NUMBER_3))  &kp LS(LG(NUMBER_4))    &none                   &none                                                                 &none    &none    &none    &none    &none     &none       &none
+  &none  &kp F11  &kp F12               &kp F13               &kp F14  &kp F15            &bt BT_SEL 0                                                                 &none  &kp F16  &kp F17  &kp F18  &kp F19   &kp F20       &none
+  &none   &kp F1   &kp F2                &kp F3                &kp F4   &kp F5            &bt BT_SEL 1  &bt BT_CLR  &bootloader                  &bootloader   &none   &none   &kp F6   &kp F7   &kp F8   &kp F9   &kp F10       &none
+ &tog 3    &none    &none                 &none                 &none    &none                                            &none                        &none                    &none    &none    &none    &none     &none       &none
+  &none    &none    &none                 &none                 &none                            &none       &none    &kp LCTRL                        &none   &to 2   &none             &none    &none    &none     &none  &bl BL_TOG
             >;
         };
 
@@ -61,11 +61,11 @@
 
         layer_arrows {
             bindings = <
-  &to 0     &trans          &trans         &trans         &trans         &trans            &trans                                               &trans        &trans         &trans        &trans         &trans          &trans    &trans
- &trans      &none           &none          &none          &none          &none            &trans                                               &trans         &none          &none         &none          &none           &none    &trans
- &trans      &none      &kp LSHIFT        &arr_up          &none          &none            &trans  &trans  &trans       &trans  &trans          &trans     &macro_yh      &macro_yj     &macro_yk      &macro_yl    &macro_ysemi    &trans
- &trans      &none       &arr_left      &arr_down     &arr_right          &none                            &trans       &trans                                 &none        &ctrl_1       &ctrl_2        &ctrl_3         &ctrl_4    &trans
- &trans     &trans          &trans         &trans         &trans                           &trans  &trans  &trans       &trans   &none                                       &trans      &kp BSPC        &kp DEL          &trans    &trans
+  &to 0     &trans          &trans         &trans         &trans         &trans            &trans                                            &trans        &trans         &trans        &trans         &trans          &trans    &trans
+ &trans      &none           &none          &none          &none          &none            &trans                                            &trans         &none          &none         &none          &none           &none    &trans
+ &trans      &none      &kp LSHIFT        &arr_up          &none          &none            &trans  &trans  &trans       &trans  &trans       &trans       &kp F10        &kp F11       &kp F12        &kp F13         &kp F14    &trans
+ &trans      &none       &arr_left      &arr_down     &arr_right          &none                            &trans       &trans                              &none        &ctrl_1       &ctrl_2        &ctrl_3         &ctrl_4    &trans
+ &trans     &trans          &trans         &trans         &trans                           &trans  &trans  &trans       &trans   &none       &trans                       &trans        &trans         &trans          &trans    &trans
             >;
         };
 

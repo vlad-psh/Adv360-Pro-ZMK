@@ -56,7 +56,7 @@ ctrl_4: ctrl_4 {
     #binding-cells = <0>;
     bindings = <&kp RG(N4)>, <&kp LC(N4)>;
     mods = <(MOD_LGUI)>;
-};
+}; 
 up_pgup: up_page_up {
     compatible = "zmk,behavior-mod-morph";
     label = "up_page_up";
