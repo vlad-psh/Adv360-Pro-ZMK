@@ -1,9 +1,4 @@
 compatible = "zmk,combos";
-combo_backspace {
-    timeout-ms = <50>;
-    key-positions = <69 70>; // RThumb: mod{numbers}+shift
-    bindings = <&arr_bspc>;
-};
 combo_enter {
     timeout-ms = <50>;
     key-positions = <65 66>; // LThumb: ctrl+space
