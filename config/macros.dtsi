@@ -1,6 +1,13 @@
-// macro_xx: macro_name {
-//   compatible = "zmk,behavior-macro";
-//   label = "macro_label";
-//   #binding-cells = <0>;
-//   bindings = <&kp LC(LA(DEL)>, <&kp ENTER>;
-// };
+DSHOT: desktop_screenshot {
+  compatible = "zmk,behavior-macro";
+  label = "desktop_screenshot";
+  #binding-cells = <0>;
+  bindings = <&kp LS(LG(N3))>; // <&kp ..>, <&kp ..>
+};
+WSHOT: window_screenshot {
+  compatible = "zmk,behavior-macro";
+  label = "window_screenshot";
+  #binding-cells = <0>;
+  bindings = <&kp LS(LG(N4))>;
+};
+
