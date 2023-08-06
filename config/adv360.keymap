@@ -27,7 +27,7 @@
  &none     &kp Q  &kp W     &kp E      &kp R    &kp T     &kp PG_UP                                                         &kp C_VOL_UP   &kp Y    &kp U      &kp I      &kp O      &kp P     &kp EQUAL
  &kp TAB   &kp A  &kp S     &kp D      &kp F    &kp G     &kp PG_DN   &mo 2      &kp LALT             &kp LALT    &none     &kp C_VOL_DN   &kp H    &kp J      &kp K      &kp L      &kp SEMI  &kp SQT
  &mo 3     &kp Z  &kp X     &kp C      &kp V    &kp B                            &none                &none                                &kp N    &kp M      &kp COMMA  &kp DOT    &kp FSLH  &none
- &eng_rus  &none  &kp ESC   &none      &none              &kp LGUI    &kp SPACE  &kp LCTRL            &kp LGUI    &mo 2     &kp LSHIFT              &kp BSPC   &kp DEL    &kp MINUS  &none     &none
+ &eng_rus  &none  &kp ESC   &none      &none              &TD_lgui    &kp SPACE  &kp LCTRL            &kp LGUI    &mo 2     &kp LSHIFT              &kp BSPC   &kp DEL    &kp MINUS  &none     &none
             >;
         };
 
@@ -57,6 +57,16 @@
  &trans   &none     &none        &none      &none       &none       &trans                                           &trans  &kp F15    &kp F16   &kp F17    &kp F18    &kp F19    &trans
  &trans   &none     &kp LSHIFT   &arr_up    &none       &none       &trans  &trans  &trans           &trans  &trans  &trans  &kp F10    &kp F11   &kp F12    &kp F13    &kp F14    &trans
  &trans   &none     &arr_left    &arr_down  &arr_right  &none                       &trans           &trans                  &none      &ctrl_1   &ctrl_2    &ctrl_3    &ctrl_4    &trans
+ &trans   &trans    &trans       &trans     &trans                  &trans  &trans  &trans           &trans  &none   &trans             &trans    &trans     &trans     &trans     &trans
+            >;
+        };
+
+        layer_switch {
+            bindings = <
+ &to 0    &trans    &trans       &trans     &trans      &trans      &trans                                           &trans  &trans     &trans    &trans     &trans     &trans     &trans
+ &trans   &kp F19   &kp F18      &kp F17    &kp F16     &kp F15     &trans                                           &trans  &none      &none     &none      &none      &none      &trans
+ &trans   &kp F14   &kp F13      &kp F12    &kp F11     &none       &trans  &trans  &trans           &trans  &trans  &trans  &none      &none     &none      &none      &none      &trans
+ &trans   &ctrl_4   &ctrl_3      &ctrl_2    &ctrl_1     &none                       &trans           &trans                  &none      &none     &none      &none      &none      &trans
  &trans   &trans    &trans       &trans     &trans                  &trans  &trans  &trans           &trans  &none   &trans             &trans    &trans     &trans     &trans     &trans
             >;
         };

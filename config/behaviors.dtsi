@@ -1,6 +1,13 @@
 // mod-morph: https://zmk.dev/docs/behaviors/mod-morph
 //            mods: MOD_LGUI MOD_LSFT MOD_LGUI MOD_LALT
 // hold-tap:  https://zmk.dev/docs/behaviors/hold-tap
+TD_lgui: tap_dance_ctrl_layer_4 {
+    compatible = "zmk,behavior-tap-dance";
+    label = "tap_dance_ctrl_layer_4";
+    #binding-cells = <0>;
+    tapping-term-ms = <300>;
+    bindings = <&kp LGUI>, <&mo 4>;
+};
 arr_up: arrow_layer_up {
     compatible = "zmk,behavior-mod-morph";
     label = "arrow_layer_up";
