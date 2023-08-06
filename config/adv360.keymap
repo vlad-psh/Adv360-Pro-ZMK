@@ -1,15 +1,7 @@
-
 /*
  * Copyright (c) 2020 The ZMK Contributors
  *
  * SPDX-License-Identifier: MIT
- */
-
-
-/* THIS FILE WAS GENERATED!
- *
- * This file was generated automatically. You may or may not want to
- * edit it directly.
  */
 
 #include <behaviors.dtsi>
@@ -62,7 +54,7 @@
         layer_arrows {
             bindings = <
  &to 0    &trans    &trans       &trans     &trans      &trans      &trans                                           &trans  &trans     &trans    &trans     &trans     &trans     &trans
- &trans   &none     &none        &none      &none       &none       &trans                                           &trans  &none      &none     &none      &none      &none      &trans
+ &trans   &none     &none        &none      &none       &none       &trans                                           &trans  &kp F15    &kp F16   &kp F17    &kp F18    &kp F19    &trans
  &trans   &none     &kp LSHIFT   &arr_up    &none       &none       &trans  &trans  &trans           &trans  &trans  &trans  &kp F10    &kp F11   &kp F12    &kp F13    &kp F14    &trans
  &trans   &none     &arr_left    &arr_down  &arr_right  &none                       &trans           &trans                  &none      &ctrl_1   &ctrl_2    &ctrl_3    &ctrl_4    &trans
  &trans   &trans    &trans       &trans     &trans                  &trans  &trans  &trans           &trans  &none   &trans             &trans    &trans     &trans     &trans     &trans
