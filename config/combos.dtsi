@@ -1,9 +1,4 @@
 compatible = "zmk,combos";
-combo_enter {
-    timeout-ms = <50>;
-    key-positions = <65 66>; // LThumb: ctrl+space
-    bindings = <&kp ENTER>;
-};
 combo_mo_arrow {
     timeout-ms = <50>;
     slow-release;
