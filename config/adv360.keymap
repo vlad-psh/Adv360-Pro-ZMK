@@ -61,16 +61,6 @@
             >;
         };
 
-        layer_switch {
-            bindings = <
- &to 0    &trans    &trans       &trans     &trans      &trans      &trans                                           &trans  &trans     &trans    &trans     &trans     &trans     &trans
- &trans   &kp F19   &kp F18      &kp F17    &kp F16     &kp F15     &trans                                           &trans  &none      &none     &none      &none      &none      &trans
- &trans   &kp F14   &kp F13      &kp F12    &kp F11     &none       &trans  &trans  &trans           &trans  &trans  &trans  &none      &none     &none      &none      &none      &trans
- &trans   &ctrl_4   &ctrl_3      &ctrl_2    &ctrl_1     &none                       &trans           &trans                  &none      &none     &none      &none      &none      &trans
- &trans   &trans    &trans       &trans     &trans                  &trans  &trans  &trans           &trans  &none   &trans             &trans    &trans     &trans     &trans     &trans
-            >;
-        };
-
     };
 };
 
