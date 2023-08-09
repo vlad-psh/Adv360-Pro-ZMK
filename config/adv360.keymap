@@ -53,11 +53,11 @@
 
         layer_arrows {
             bindings = <
- &to 0    &trans    &trans       &trans     &trans      &trans      &trans                                           &trans  &trans     &trans    &trans     &trans     &trans     &trans
- &trans   &none     &none        &none      &none       &none       &trans                                           &trans  &kp F15    &kp F16   &kp F17    &kp F18    &kp F19    &trans
- &trans   &none     &kp LSHIFT   &arr_up    &none       &none       &trans  &trans  &trans           &trans  &trans  &trans  &kp F10    &kp F11   &kp F12    &kp F13    &kp F14    &trans
- &trans   &none     &arr_left    &arr_down  &arr_right  &none                       &trans           &trans                  &none      &ctrl_1   &ctrl_2    &ctrl_3    &ctrl_4    &trans
- &trans   &trans    &trans       &trans     &trans                  &trans  &trans  &trans           &trans  &none   &trans             &trans    &trans     &trans     &trans     &trans
+ &to 0    &trans    &trans       &trans     &trans      &trans      &trans                                             &trans  &trans     &trans    &trans     &trans     &trans     &trans
+ &trans   &none     &none        &none      &none       &none       &trans                                             &trans  &kp F15    &kp F16   &kp F17    &kp F18    &kp F19    &trans
+ &trans   &none     &none        &none      &none       &none       &kp LSHFT &trans  &trans           &trans  &trans  &trans  &kp F10    &kp F11   &kp F12    &kp F13    &kp F14    &trans
+ &trans   &none     &arr_left    &arr_down  &arr_up     &arr_right                    &trans           &trans                  &none      &ctrl_1   &ctrl_2    &ctrl_3    &ctrl_4    &trans
+ &trans   &trans    &trans       &kp BSPC   &kp DEL                 &trans    &trans  &trans           &trans  &none   &trans             &trans    &trans     &trans     &trans     &trans
             >;
         };
 
