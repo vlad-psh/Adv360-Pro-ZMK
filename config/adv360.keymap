@@ -23,11 +23,11 @@
 
         default_layer_0 {
             bindings = <
- &none     &kp N1   &kp N2    &kp N3     &kp N4     &kp N5    &sl 4                                                                 &sl 4           &kp N6   &kp N7     &kp N8     &kp N9     &kp N0    &none
+ &none &ht EXCL N1 &ht AT N2 &ht HASH N3 &ht DLLR N4 &ht PRCNT N5 &sl 4                                                            &sl 4 &ht CARET N6 &ht AMPS N7 &ht STAR N8 &ht GRAVE N9 &ht TILDE N0 &none
  &kp GRAVE &kp Q    &kp W     &kp E      &kp R      &kp T     &none                                                                 &kp C_VOL_UP    &kp Y    &kp U      &kp I      &kp O      &kp P     &kp EQUAL
  &kp TAB   &kp A    &kp S     &kp D      &kp F      &kp G     &kp LSHFT       &mo 3      &kp LALT             &kp RALT    &none     &kp C_VOL_DN    &kp H    &kp J      &kp K      &kp L      &kp SEMI  &kp SQT
  &mo 5     &kp Z    &kp X     &kp C      &kp V      &kp B                                &kp LCTRL            &kp RCTRL                             &kp N    &kp M      &kp COMMA  &kp DOT    &kp FSLH  &kp BSLH
- &eng_rus  &kp LPAR &kp ESC   &kp LBKT   &kp RBKT             &mt LGUI ENTER  &kp SPACE  &kp LGUI             &kp RGUI    &kp RSHFT &kp RCTRL                &kp BSPC   &kp DEL    &kp MINUS  &kp RPAR  &none
+ &eng_rus  &kp LPAR &kp ESC   &ht LBRC LBKT &ht RBRC RBKT     &mt LGUI ENTER  &kp SPACE  &kp LGUI             &kp RGUI    &kp RSHFT &kp RCTRL                &kp BSPC   &kp DEL    &kp MINUS  &kp RPAR  &none
             >;
         };
 

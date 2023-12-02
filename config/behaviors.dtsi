@@ -1,6 +1,15 @@
 // mod-morph: https://zmk.dev/docs/behaviors/mod-morph
 //            mods: MOD_LGUI MOD_LSFT MOD_LGUI MOD_LALT
 // hold-tap:  https://zmk.dev/docs/behaviors/hold-tap
+ht: hold_tap_balanced {
+    compatible = "zmk,behavior-hold-tap";
+    label = "HOLD_TAP_BAL";
+    #binding-cells = <2>;
+    tapping-term-ms = <200>;
+    quick-tap-ms = <0>;
+    flavor = "balanced";
+    bindings = <&kp>, <&kp>;
+};
 arr_up: arrow_layer_up {
     compatible = "zmk,behavior-mod-morph";
     label = "arrow_layer_up";
