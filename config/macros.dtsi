@@ -10,4 +10,15 @@ WSHOT: window_screenshot {
   #binding-cells = <0>;
   bindings = <&kp LS(LG(N4))>;
 };
-
+VIMW: vim_save {
+  compatible = "zmk,behavior-macro";
+  label = "vim_save";
+  #binding-cells = <0>;
+  bindings = <&kp ESC>, <&kp LS(SEMI)>, <&kp W>, <&kp ENTER>;
+};
+VIMQ: vim_quit {
+  compatible = "zmk,behavior-macro";
+  label = "vim_quit";
+  #binding-cells = <0>;
+  bindings = <&kp ESC>, <&kp LS(SEMI)>, <&kp Q>, <&kp ENTER>;
+};
