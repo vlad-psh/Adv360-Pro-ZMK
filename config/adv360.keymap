@@ -24,8 +24,8 @@
         default_layer_0 {
             bindings = <
  &none &ht EXCL N1 &ht AT N2 &ht HASH N3 &ht DLLR N4 &ht PRCNT N5 &sl 4                                                            &sl 4 &ht CARET N6 &ht AMPS N7 &ht STAR N8 &ht GRAVE N9 &ht TILDE N0 &none
- &kp ESC   &kp Q    &kp W     &kp E      &kp R      &kp T     &none                                                                 &kp C_VOL_UP    &kp Y    &kp U      &kp I      &kp O      &kp P     &kp EQUAL
- &kp TAB   &kp A    &kp S     &kp D      &kp F      &kp G     &kp LSHFT       &mo 3      &kp LALT             &kp RALT    &kp ENTER &kp C_VOL_DN    &kp H    &kp J      &kp K      &kp L      &kp SEMI  &kp SQT
+ &kp ESC   &kp Q    &kp W     &kp E      &kp R      &kp G     &none                                                                 &kp C_VOL_UP    &kp Y    &kp J      &kp I      &kp O      &kp P     &kp EQUAL
+ &kp TAB   &kp A    &kp S     &kp D      &kp F      &kp T     &kp LSHFT       &mo 3      &kp LALT             &kp RALT    &kp ENTER &kp C_VOL_DN    &kp H    &kp U      &kp K      &kp L      &kp SEMI  &kp SQT
  &mo 5     &kp Z    &kp X     &kp C      &kp V      &kp B                                &kp LCTRL            &kp RCTRL                             &kp N    &kp M      &kp COMMA  &kp DOT    &kp FSLH  &kp MINUS
  &none     &kp LBKT &kp ESC   &none      &none                &mt LGUI ENTER  &kp SPACE  &kp LCTRL            &kp RGUI    &kp RCTRL &kp RSHFT                &kp BSPC   &kp DEL    &none      &kp RBKT  &kp ENTER
             >;
