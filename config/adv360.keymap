@@ -21,17 +21,17 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer_0 {
+        default_layer_0 { // Default COLEMAK layer
             bindings = <
- &none     &kp N1   &kp N2    &kp N3     &kp N4     &kp N5    &sl 4                                                                 &sl 4           &kp N6   &kp N7     &kp N8     &kp N9     &kp N0    &none
- &kp ESC   &kp Q    &kp W     &kp F      &kp P      &kp B     &none                                                                 &kp C_VOL_UP    &kp J    &kp M      &kp U      &kp Y      &kp SEMI  &kp EQUAL
- &kp TAB   &kp A    &kp R     &kp S      &kp T      &kp G     &kp TAB         &mo 3      &kp LALT             &kp RALT    &kp ENTER &kp C_VOL_DN    &kp H    &kp N      &kp E      &kp I      &kp O     &kp SQT
- &mo 5     &kp Z    &kp X     &kp C      &kp D      &kp V                                &kp LCTRL            &kp RCTRL                             &kp K    &kp L      &kp COMMA  &kp DOT    &kp FSLH  &kp MINUS
- &none     &kp LBKT &kp ESC   &kp GRAVE  &kp BSLH             &mt LGUI ENTER  &kp SPACE  &kp LCTRL            &kp RGUI    &kp RCTRL &mt RSHFT ENTER          &kp BSPC   &kp DEL    &none      &kp RBKT  &kp ENTER
+ &none         &kp N1      &kp N2    &kp N3     &kp N4     &kp N5    &sl 4                                                                 &sl 4           &kp N6   &kp N7     &kp N8     &kp N9     &kp N0    &none
+ &mo 3         &kp Q       &kp W     &kp F      &kp P      &kp B     &none                                                                 &kp C_VOL_UP    &kp J    &kp M      &kp U      &kp Y      &kp SEMI  &kp EQUAL
+ &kp TAB       &kp A       &kp R     &kp S      &kp T      &kp G     &kp TAB         &none      &kp LALT             &kp RALT    &none     &kp C_VOL_DN    &kp H    &kp N      &kp E      &kp I      &kp O     &kp SQT
+ &mo 5         &kp Z       &kp X     &kp C      &kp D      &kp V                                &kp LCTRL            &kp RCTRL                             &kp K    &kp L      &kp COMMA  &kp DOT    &kp FSLH  &kp MINUS
+ &kp LG(LC(LA(E))) &kp LBKT &kp ESC  &kp GRAVE  &kp BSLH             &mt LGUI ENTER  &kp SPACE  &kp LCTRL            &kp RGUI    &kp RCTRL &mt RSHFT ENTER          &kp BSPC   &kp DEL    &none      &kp RBKT  &kp LG(LC(LA(R)))
             >;
         };
 
-        layer_colemak_1 {
+        layer_1 { // QWERTY layer (to enable, press ESC while in the MGMT layer; to disable, press ESC)
             bindings = <
  &to 0   &trans  &trans  &trans  &trans  &trans &trans                                            &trans  &trans  &trans  &trans  &trans  &trans   &trans
  &trans  &kp Q   &kp W   &kp E   &kp R   &kp T  &trans                                            &trans  &kp Y   &kp U   &kp I   &kp O   &kp P    &trans
@@ -51,17 +51,17 @@
             >;
         };
 
-        layer_3 {
+        layer_3 { // (to enable, press the TAB key)
             bindings = <
  &to 0   &trans  &trans  &trans  &trans  &trans &trans                                         &trans  &trans  &trans  &trans  &trans  &trans   &trans
- &trans  &kp Q   &kp W   &kp F   &kp P   &kp G  &trans                                         &trans  &kp J   &kp L   &kp U   &kp Y   &kp SEMI &trans
- &trans  &kp A   &kp R   &kp S   &kp T   &kp D  &trans  &trans &trans        &trans  &trans    &trans  &kp H   &kp N   &kp E   &kp I   &kp O    &trans
- &trans  &kp Z   &kp X   &kp C   &kp V   &kp B                 &trans        &trans                    &kp K   &kp M   &trans  &trans  &trans   &trans
- &trans  &trans  &trans  &trans  &trans         &trans  &mo 5  &trans        &trans  &kp SPACE &trans          &trans  &trans  &trans  &trans   &trans
+ &trans  &none   &VIMQ   &none   &VIMW   &none  &none                                          &trans  &none   &none   &none   &none   &none    &none
+ &trans  &none   &none   &none   &none   &none  &none   &trans &trans        &trans  &trans    &trans  &kp F16 &kp F17 &kp F18 &kp F19 &kp F20  &none
+ &trans  &none   &none   &none   &none   &none                 &trans        &trans                    &none   &none   &none   &none   &none    &none
+ &trans  &trans  &trans  &trans  &trans         &trans  &trans &trans        &trans  &trans    &trans          &trans  &trans  &trans  &trans   &trans
             >;
         };
 
-        layer_mod_4 {
+        layer_4 { // MGMT layer (to enable, press the key to the right of the NUM5 / to the left of the NUM6)
             bindings = <
  &to 1   &none    &none    &DSHOT      &WSHOT   &none     &none                                                                 &none   &none    &none    &none    &none     &none     &none
  &to 2   &kp F11  &kp F12  &kp F13     &kp F14  &kp F15   &bt BT_SEL 0                                                          &none   &kp F16  &kp F17  &kp F18  &kp F19   &kp F20   &none
@@ -71,13 +71,13 @@
             >;
         };
 
-        layer_arrows_5 {
+        layer_5 { // Movements+etc layer (to enable, press LEFT SHIFT button)
             bindings = <
- &to 0    &trans    &trans       &trans     &trans      &trans      &trans                                             &trans  &trans     &trans    &trans     &trans     &trans     &trans
- &trans   &none     &none        &none      &none       &none       &trans                                             &trans  &VIMQ      &kp PGUP  &VIMW      &kp PGDN   &kp F15    &kp F16
- &trans   &none     &none        &kp LSHFT  &none       &none       &none     &trans  &trans           &trans  &trans  &trans  &arr_left  &arr_down &arr_up    &arr_right &kp F17    &kp F18
- &trans   &none     &kp LG(LC(LA(J))) &kp LG(LC(LA(R))) &kp LG(LC(LA(E))) &none       &trans           &trans                  &kp F10    &kp BSPC  &kp DEL    &none      &kp F19    &kp F20
- &trans   &trans    &trans       &none      &none                   &trans    &trans  &trans           &trans  &kp LS(ENTER)   &trans     &trans    &trans     &trans     &trans     &trans
+ &to 0    &trans    &trans       &trans     &trans      &trans      &none                                              &trans  &trans     &trans    &trans     &trans     &trans     &trans
+ &trans   &none     &none        &none      &none       &none       &none                                              &none   &none      &kp PGUP  &none      &kp PGDN   &none      &none
+ &trans   &none     &none        &none      &none       &none       &none     &trans  &trans           &trans  &trans  &none   &arr_left  &arr_down &arr_up    &arr_right &none      &none
+ &trans   &none     &kp N4       &kp N2     &kp N0      &kp N6                        &trans           &trans                  &kp N8     &kp N1    &kp N3     &kp N5     &kp N7     &kp N9
+ &trans   &trans    &trans       &none      &none                   &trans    &trans  &trans           &trans  &trans  &trans             &trans    &trans     &none      &none      &none
             >;
         };
 
