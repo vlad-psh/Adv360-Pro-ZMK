@@ -24,10 +24,10 @@
         default_layer_0 { // Default COLEMAK layer
             bindings = <
  &none         &kp N1      &kp N2    &kp N3     &kp N4     &kp N5    &sl 4                                                                 &sl 4           &kp N6   &kp N7     &kp N8     &kp N9     &kp N0    &none
- &mo 3         &kp Q       &kp W     &kp F      &kp P      &kp B     &none                                                                 &kp C_VOL_UP    &kp J    &kp M      &kp U      &kp Y      &kp SEMI  &kp EQUAL
+ &none         &kp Q       &kp W     &kp F      &kp P      &kp B     &none                                                                 &kp C_VOL_UP    &kp J    &kp M      &kp U      &kp Y      &kp SEMI  &kp EQUAL
  &kp TAB       &kp A       &kp R     &kp S      &kp T      &kp G     &kp TAB         &none      &kp LALT             &kp RALT    &none     &kp C_VOL_DN    &kp H    &kp N      &kp E      &kp I      &kp O     &kp SQT
  &mo 5         &kp Z       &kp X     &kp C      &kp D      &kp V                                &kp LCTRL            &kp RCTRL                             &kp K    &kp L      &kp COMMA  &kp DOT    &kp FSLH  &kp MINUS
- &kp LG(LC(LA(E))) &kp LBKT &kp ESC  &kp GRAVE  &kp BSLH             &mt LGUI ENTER  &kp SPACE  &kp LCTRL            &kp RGUI    &kp RCTRL &mt RSHFT ENTER          &kp BSPC   &kp DEL    &none      &kp RBKT  &kp LG(LC(LA(R)))
+ &kp LG(LC(LA(E))) &kp LBKT &kp ESC  &kp GRAVE  &kp BSLH             &mt LGUI ENTER  &kp SPACE  &mo 3                &kp RGUI    &kp RCTRL &mt RSHFT ENTER          &kp BSPC   &kp DEL    &none      &kp RBKT  &kp LG(LC(LA(R)))
             >;
         };
 
@@ -51,12 +51,12 @@
             >;
         };
 
-        layer_3 { // (to enable, press the TAB key)
+        layer_3 { // (to enable, press the Left-Thumb-3 key)
             bindings = <
  &to 0   &trans  &trans  &trans  &trans  &trans &trans                                         &trans  &trans  &trans  &trans  &trans  &trans   &trans
- &trans  &none   &VIMQ   &none   &VIMW   &none  &none                                          &trans  &none   &none   &none   &none   &none    &none
- &trans  &none   &none   &none   &none   &none  &none   &trans &trans        &trans  &trans    &trans  &kp F16 &kp F17 &kp F18 &kp F19 &kp F20  &none
- &trans  &none   &none   &none   &none   &none                 &trans        &trans                    &none   &none   &none   &none   &none    &none
+ &trans  &none   &none   &none   &none   &none  &none                                          &trans  &none   &none   &none   &none   &none    &none
+ &trans  &kp N6  &kp N4  &kp N2  &kp N0  &kp N8 &none   &trans &trans        &trans  &trans    &trans  &kp N9  &kp N1  &kp N3  &kp N5  &kp N7   &none
+ &trans  &none   &none   &none   &none   &none                 &trans        &trans                    &kp F16 &kp F17 &kp F18 &kp F19 &kp F20  &none
  &trans  &trans  &trans  &trans  &trans         &trans  &trans &trans        &trans  &trans    &trans          &trans  &trans  &trans  &trans   &trans
             >;
         };
@@ -76,8 +76,8 @@
  &to 0    &trans    &trans       &trans     &trans      &trans      &none                                              &trans  &trans     &trans    &trans     &trans     &trans     &trans
  &trans   &none     &none        &none      &none       &none       &none                                              &none   &none      &kp PGUP  &none      &kp PGDN   &none      &none
  &trans   &none     &none        &none      &none       &none       &none     &trans  &trans           &trans  &trans  &none   &arr_left  &arr_down &arr_up    &arr_right &none      &none
- &trans   &none     &kp N4       &kp N2     &kp N0      &kp N6                        &trans           &trans                  &kp N8     &kp N1    &kp N3     &kp N5     &kp N7     &kp N9
- &trans   &trans    &trans       &none      &none                   &trans    &trans  &trans           &trans  &trans  &trans             &trans    &trans     &none      &none      &none
+ &trans   &none     &none        &none      &none       &none                         &trans           &trans                  &none      &none     &none      &none      &none      &none
+ &trans   &trans    &trans       &none      &none                   &trans    &trans  &trans           &VIMQ   &kp F10 &VIMW              &trans    &trans     &none      &none      &none
             >;
         };
 
