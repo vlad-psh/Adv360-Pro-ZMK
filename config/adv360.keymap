@@ -74,9 +74,9 @@
         layer_5 { // Movements+etc layer (to enable, press LEFT SHIFT button)
             bindings = <
  &to 0    &trans    &trans       &trans     &trans      &trans      &none                                              &trans  &trans     &trans    &trans     &trans     &trans     &trans
- &trans   &none     &none        &none      &none       &none       &none                                              &none   &none      &kp PGUP  &none      &kp PGDN   &none      &none
+ &trans   &none     &none        &none      &none       &none       &none                                              &none   &kp CARET  &kp AMPS  &kp STAR   &kp LPAR   &kp RPAR   &none
  &trans   &none     &none        &none      &none       &none       &none     &trans  &trans           &trans  &trans  &none   &arr_left  &arr_down &arr_up    &arr_right &none      &none
- &trans   &none     &none        &none      &none       &none                         &trans           &trans                  &none      &none     &none      &none      &none      &none
+ &trans   &none     &none        &none      &none       &none                         &trans           &trans                  &kp EXCL   &kp AT    &kp HASH   &kp DOLLAR &kp PRCNT  &none
  &trans   &trans    &trans       &none      &none                   &trans    &trans  &trans           &VIMQ   &kp F10 &VIMW              &trans    &trans     &none      &none      &none
             >;
         };
