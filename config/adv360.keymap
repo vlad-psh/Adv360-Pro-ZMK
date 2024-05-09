@@ -77,7 +77,7 @@
  &trans   &none     &none        &kp LBKT   &kp RBKT    &none       &none                                              &none   &kp CARET  &kp AMPS  &kp LPAR   &kp RPAR   &kp COLON  &none
  &trans   &none     &kp GRAVE    &kp LBRC   &kp RBRC    &none       &none     &trans  &trans           &trans  &trans  &none   &arr_left  &arr_down &arr_up    &arr_right &kp STAR   &none
  &trans   &none     &kp LT       &kp EQUAL  &kp GT      &none                         &trans           &trans                  &kp EXCL   &kp AT    &kp HASH   &kp DOLLAR &kp PRCNT  &none
- &trans   &trans    &trans       &none      &none                   &trans    &trans  &trans           &VIMQ   &kp F10 &VIMW              &trans    &trans     &none      &none      &none
+ &trans   &trans    &trans       &none      &none                   &trans    &trans  &trans           &kp LC(Q) &kp F10 &kp LC(S)        &trans    &trans     &none      &none      &none
             >;
         };
 
