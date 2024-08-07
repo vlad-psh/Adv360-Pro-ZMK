@@ -23,11 +23,11 @@
 
         default_layer_0 { // Default COLEMAK layer
             bindings = <
- &none         &kp N1      &kp N2    &kp N3     &kp N4     &kp N5    &sl 4                                                                 &sl 4           &kp N6   &kp N7     &kp N8     &kp N9     &kp N0    &none
- &none         &kp Q       &kp W     &kp F      &kp P      &kp B     &none                                                                 &kp C_VOL_UP    &kp J    &kp M      &kp U      &kp Y      &kp SEMI  &kp EQUAL
+ &none         &kp N1      &kp N2    &kp N3     &kp N4     &kp N5    &sl 4                                                                 &sl 4           &kp N6   &kp N7     &kp LPAR   &kp RPAR   &none     &none
+ &none         &kp Q       &kp W     &kp F      &kp P      &kp B     &none                                                                 &kp C_VOL_UP    &kp J    &kp M      &kp U      &kp Y      &kp COLON &kp EQUAL
  &kp TAB       &kp A       &kp R     &kp S      &kp T      &kp G     &kp TAB         &none      &kp LALT             &kp RALT    &none     &kp C_VOL_DN    &kp H    &kp N      &kp E      &kp I      &kp O     &kp SQT
- &mo 5         &kp Z       &kp X     &kp C      &kp D      &kp V                                &kp LCTRL            &kp RCTRL                             &kp K    &kp L      &kp COMMA  &kp DOT    &kp FSLH  &kp MINUS
- &kp LG(LC(LA(E))) &kp LBKT &kp ESC  &kp GRAVE  &mo 5                &mt LGUI ENTER  &kp SPACE  &mo 3                &kp RGUI    &kp RCTRL &mt RSHFT ENTER          &kp BSPC   &kp DEL    &none      &kp RBKT  &kp LG(LC(LA(R)))
+ &mo 5         &kp Z       &kp X     &kp C      &kp D      &kp V                                &kp LCTRL            &kp RCTRL                             &kp K    &kp L      &kp COMMA  &kp DOT    &kp FSLH  &kp UNDERSCORE
+ &kp LG(LC(LA(E))) &kp LBKT &kp ESC  &kp GRAVE  &mo 5                &mt LGUI ENTER  &kp SPACE  &kp LGUI             &kp RGUI    &mo 5     &mt RSHFT ENTER          &kp BSPC   &kp DEL    &none      &kp RBKT  &kp LG(LC(LA(R)))
             >;
         };
 
@@ -51,7 +51,7 @@
             >;
         };
 
-        layer_3 { // (to enable, press the Left-Thumb-3 key)
+        layer_3 { // (to enable, press the Left-Thumb-3 key) UPD: DO NOT USED
             bindings = <
  &to 0   &trans  &trans  &trans  &trans  &trans &trans                                         &trans  &trans  &trans  &trans  &trans  &trans   &trans
  &trans  &none   &none   &none   &none   &none  &none                                          &trans  &none   &none   &none   &none   &none    &none
@@ -71,13 +71,13 @@
             >;
         };
 
-        layer_5 { // Movements+etc layer (to enable, press LEFT SHIFT button)
+        layer_5 { // Movements+etc layer (to enable, press LEFT SHIFT button or Right-Thumb-2 key)
             bindings = <
- &to 0    &trans    &trans       &trans     &trans      &trans      &none                                              &trans  &trans     &trans    &trans     &trans     &trans     &trans
- &trans   &none     &none        &kp LBKT   &kp RBKT    &none       &none                                              &none   &kp CARET  &kp AMPS  &kp LPAR   &kp RPAR   &kp PRCNT  &none
- &trans   &none     &kp GRAVE    &kp LBRC   &kp RBRC    &none       &none     &trans  &trans           &trans  &trans  &none   &arr_left  &arr_down &arr_up    &arr_right &kp STAR   &none
- &trans   &none     &kp LT       &kp EQUAL  &kp GT      &none                         &trans           &trans                  &kp EXCL   &kp AT    &kp HASH   &kp DOLLAR &kp BSLH   &kp PIPE
- &trans   &trans    &trans       &none      &none                   &trans    &trans  &trans           &kp LC(Q) &kp F10 &kp LC(S)        &trans    &trans     &none      &none      &none
+ &to 0    &trans    &kp LT       &kp EQUAL  &kp GT      &trans      &none                                              &trans  &trans     &trans    &kp LBKT   &kp RBKT   &trans     &trans
+ &trans   &kp SLASH &kp N7       &kp N8     &kp N9      &kp MINUS   &none                                              &none   &kp CARET  &kp AMPS  &kp LBRC   &kp RBRC   &kp SEMI   &kp PRCNT
+ &trans   &kp STAR  &kp N4       &kp N5     &kp N6      &kp PLUS    &none     &trans  &trans           &trans  &trans  &none   &arr_left  &arr_down &arr_up    &arr_right &kp STAR   &none
+ &trans   &kp N0    &kp N1       &kp N2     &kp N3      &none                         &trans           &trans                  &kp EXCL   &kp AT    &kp HASH   &kp DOLLAR &kp BSLH   &kp PIPE
+ &trans   &trans    &trans       &kp COMMA  &kp DOT                 &trans    &trans  &trans           &kp LC(Q) &kp F10 &kp LC(S)        &trans    &trans     &none      &none      &none
             >;
         };
 
