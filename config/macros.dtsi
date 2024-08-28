@@ -22,3 +22,21 @@ VIMQ: vim_quit {
   #binding-cells = <0>;
   bindings = <&kp ESC>, <&kp LS(SEMI)>, <&kp Q>, <&kp ENTER>;
 };
+PARENPAIR: parentheses_pair {
+  compatible = "zmk,behavior-macro";
+  label = "parentheses_pair";
+  #binding-cells = <0>;
+  bindings = <&kp LPAR>, <&kp RPAR>, <&kp LEFT>;
+};
+BKTPAIR: brackets_pair {
+  compatible = "zmk,behavior-macro";
+  label = "brackets_pair";
+  #binding-cells = <0>;
+  bindings = <&kp LBKT>, <&kp RBKT>, <&kp LEFT>;
+};
+BRCPAIR: braces_pair {
+  compatible = "zmk,behavior-macro";
+  label = "braces_pair";
+  #binding-cells = <0>;
+  bindings = <&kp LBRC>, <&kp RBRC>, <&kp LEFT>;
+};
