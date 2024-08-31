@@ -71,12 +71,13 @@
             >;
         };
 
+
         layer_5 { // Movements+etc layer (to enable, press LEFT SHIFT button or Right-Thumb-2 key)
             bindings = <
  &to 0    &trans    &kp LT       &kp EQUAL  &kp GT      &trans      &none                                                   &trans  &trans     &trans    &kp LBKT   &kp RBKT   &trans     &trans
  &trans   &kp MINUS &kp N7       &kp N8     &kp N9      &kp PLUS    &kp LG(LS(N3))                                          &none   &kp CARET  &kp AMPS  &kp LBRC   &kp RBRC   &kp PRCNT  &none
- &trans   &kp DOT   &kp N4       &kp N5     &kp N6      &kp N0      &kp LG(LS(N4)) &trans  &trans           &trans  &trans  &none   &arr_left  &arr_down &arr_up    &arr_right &kp STAR   &none
- &trans   &kp SLASH &kp N1       &kp N2     &kp N3      &kp STAR                           &trans           &trans                  &kp EXCL   &kp AT    &kp HASH   &kp DOLLAR &kp BSLH   &kp PIPE
+ &trans   &kp N0    &kp N1       &kp N2     &kp N3      &kp DOT     &kp LG(LS(N4)) &trans  &trans           &trans  &trans  &none   &arr_left  &arr_down &arr_up    &arr_right &kp STAR   &none
+ &trans   &kp SLASH &kp N4       &kp N5     &kp N6      &kp STAR                           &trans           &trans                  &kp EXCL   &kp AT    &kp HASH   &kp DOLLAR &kp BSLH   &kp PIPE
  &trans   &trans    &trans       &kp LG(X)  &none                   &trans         &trans  &trans           &kp LC(Q) &kp F10 &kp LC(S)        &trans    &trans     &BRCPAIR   &BKTPAIR   &kp LSHFT
             >;
         };
