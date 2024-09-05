@@ -38,10 +38,10 @@ arr_right: arrow_layer_right {
     bindings = <&kp RIGHT>, <&kp END>;
     mods = <(MOD_LGUI)>;
 };
-m5tab: grave_escape {
+l5_enter_tab: layer5_enter_tab {
     compatible = "zmk,behavior-mod-morph";
     #binding-cells = <0>;
-    bindings = <&mo 5>, <&kp TAB>;
+    bindings = <&lt 5 ENTER>, <&kp TAB>;
     mods = <(MOD_LGUI|MOD_RGUI)>;
     keep-mods = <(MOD_LGUI|MOD_RGUI)>;
 };
