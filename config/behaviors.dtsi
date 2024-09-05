@@ -38,10 +38,20 @@ arr_right: arrow_layer_right {
     bindings = <&kp RIGHT>, <&kp END>;
     mods = <(MOD_LGUI)>;
 };
-l5_enter_tab: layer5_enter_tab {
+
+layer_tap_hp: layer_tap_hold_preferred {
+    compatible = "zmk,behavior-hold-tap";
+    label = "LAYER_TAP_HP";
+    #binding-cells = <2>;
+    tapping-term-ms = <200>;
+    quick-tap-ms = <0>;
+    flavor = "hold-preferred";
+    bindings = <&mo>, <&kp>;
+};
+l5_enter_tab: layer5__tap_enter__morph_tab {
     compatible = "zmk,behavior-mod-morph";
     #binding-cells = <0>;
-    bindings = <&lt 5 ENTER>, <&kp TAB>;
+    bindings = <&layer_tap_hp 5 ENTER>, <&kp TAB>;
     mods = <(MOD_LGUI|MOD_RGUI)>;
     keep-mods = <(MOD_LGUI|MOD_RGUI)>;
 };
