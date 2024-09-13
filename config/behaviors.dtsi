@@ -48,10 +48,10 @@ layer_tap_hp: layer_tap_hold_preferred {
     flavor = "hold-preferred";
     bindings = <&mo>, <&kp>;
 };
-l5_enter_tab: layer5__tap_enter__morph_tab {
+l2_enter_tab: layer2__tap_enter__morph_tab {
     compatible = "zmk,behavior-mod-morph";
     #binding-cells = <0>;
-    bindings = <&layer_tap_hp 5 ENTER>, <&kp TAB>;
+    bindings = <&layer_tap_hp 2 ENTER>, <&kp TAB>;
     mods = <(MOD_LGUI|MOD_RGUI)>;
     keep-mods = <(MOD_LGUI|MOD_RGUI)>;
 };

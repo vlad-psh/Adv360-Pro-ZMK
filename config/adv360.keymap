@@ -23,11 +23,11 @@
 
         default_layer_0 { // Default COLEMAK layer
             bindings = <
- &none           &none       &kp LT    &kp EQUAL  &kp GT     &none     &sl 4                                                                   &sl 4           &none    &none      &kp LPAR   &kp RPAR   &none     &none
+ &kp LG(Q)       &none       &kp LT    &kp EQUAL  &kp GT     &none     &sl 3                                                                   &sl 3           &none    &none      &kp LPAR   &kp RPAR   &none     &none
  &none           &kp Q       &kp W     &kp F      &kp P      &kp B     &none                                                                   &kp C_VOL_UP    &kp J    &kp M      &kp U      &kp Y      &kp SEMI  &kp EQUAL
  &mt LGUI TAB    &kp A       &kp R     &kp S      &kp T      &kp G     &none          &none      &kp LALT                &kp RS(TAB) &kp TAB   &kp C_VOL_DN    &kp H    &kp N      &kp E      &kp I      &kp O     &kp SQT
  &none           &kp Z       &kp X     &kp C      &kp D      &kp V                               &kp LCTRL               &kp RCTRL                             &kp K    &kp L      &kp COMMA  &kp DOT    &kp FSLH  &kp MINUS
- &kp LG(LC(LA(E))) &kp LG(Z) &kp ESC   &kp LG(C)  &kp LG(V)            &l5_enter_tab  &kp SPACE  &kp LGUI                &kp RGUI    &kp RCTRL &mt RSHFT ENTER          &kp BSPC   &kp DEL    &kp UNDER  &none     &kp LG(LC(LA(R)))
+ &kp LG(LC(LA(E))) &kp LG(Z) &kp ESC   &kp LG(C)  &kp LG(V)            &l2_enter_tab  &kp SPACE  &kp LGUI                &kp RGUI    &kp RCTRL &mt RSHFT ENTER          &kp BSPC   &kp DEL    &kp UNDER  &none     &kp LG(LC(LA(R)))
             >;
         };
 
@@ -41,44 +41,23 @@
             >;
         };
 
-        layer_qwerty_mod_2 {
-            bindings = <
- &to 0   &trans  &trans  &trans    &trans  &trans   &trans                                            &trans   &trans  &trans      &trans     &trans     &trans    &trans
- &trans  &kp Q   &kp W   &kp T     &kp R   &kp K    &trans                                            &trans   &kp Y    &kp J      &kp I      &kp H      &kp SEMI  &trans
- &trans  &kp A   &kp S   &kp D     &kp F   &kp G    &trans     &trans  &trans          &trans  &trans &trans   &kp U    &kp N      &kp E      &kp L      &kp O     &trans
- &trans  &kp Z   &kp X   &kp C     &kp V   &kp B                       &trans          &trans                  &kp P    &kp M      &kp COMMA  &kp DOT    &kp FSLH  &trans
- &trans  &trans  &trans  &trans    &trans           &trans     &trans  &trans          &trans  &trans &trans            &trans     &trans     &trans     &trans    &trans
-            >;
-        };
-
-        layer_3 { // (to enable, press the Left-Thumb-3 key) UPD: DO NOT USED
-            bindings = <
- &to 0   &trans  &trans  &trans  &trans  &trans &trans                                         &trans  &trans  &trans  &trans  &trans  &trans   &trans
- &trans  &none   &none   &none   &none   &none  &none                                          &trans  &none   &none   &none   &none   &none    &none
- &trans  &kp N6  &kp N4  &kp N2  &kp N0  &kp N8 &none   &trans &trans        &trans  &trans    &trans  &kp N9  &kp N1  &kp N3  &kp N5  &kp N7   &none
- &trans  &none   &none   &none   &none   &none                 &trans        &trans                    &kp F16 &kp F17 &kp F18 &kp F19 &kp F20  &none
- &trans  &trans  &trans  &trans  &trans         &trans  &trans &trans        &trans  &trans    &trans          &trans  &trans  &trans  &trans   &trans
-            >;
-        };
-
-        layer_4 { // MGMT layer (to enable, press the key to the right of the NUM5 / to the left of the NUM6)
-            bindings = <
- &to 1   &none    &none    &DSHOT      &WSHOT   &none     &none                                                                 &none   &none    &none    &none    &none     &none     &none
- &to 2   &kp F11  &kp F12  &kp F13     &kp F14  &kp F15   &bt BT_SEL 0                                                          &none   &kp F16  &kp F17  &kp F18  &kp F19   &kp F20   &none
- &none   &kp F1   &kp F2   &kp F3      &kp F4   &kp F5    &bt BT_SEL 1  &bt BT_CLR  &bootloader           &bootloader   &none   &none   &kp GRAVE &kp LBKT &kp RBKT &kp BSLH &none     &none
- &tog 5  &none    &none    &none       &none    &none                               &none                 &none                         &none    &none    &none    &none     &none     &none
- &none   &none    &none    &none       &none              &kp LGUI      &kp SPACE   &kp LCTRL             &none         &kp RSHFT &kp ENTER      &none    &none    &none     &none     &bl BL_TOG
-            >;
-        };
-
-
-        layer_5 { // Movements+etc layer (to enable, press LEFT SHIFT button or Right-Thumb-2 key)
+        layer_2 { // Movements+etc layer (to enable, press LEFT SHIFT button or Right-Thumb-2 key)
             bindings = <
  &to 0    &none      &kp LBRC     &kp RBRC   &none       &none       &none                                                   &trans  &trans     &kp TILDE &kp LBKT   &kp RBKT   &trans     &trans
  &trans   &BRCPAIR   &kp N7       &kp N8     &kp N9      &kp DOLLAR  &kp LG(LS(N3))                                          &none   &kp CARET  &kp STAR  &kp PLUS   &kp MINUS  &trans     &trans
  &trans   &PARENPAIR &kp N1       &kp N2     &kp N3      &kp HASH    &kp LG(LS(N4)) &trans  &trans           &trans  &trans  &none   &arr_left  &arr_down &arr_up    &arr_right &kp N0     &kp GRAVE
  &trans   &BKTPAIR   &kp N4       &kp N5     &kp N6      &kp PRCNT                          &trans           &trans                  &kp EXCL   &kp AT    &trans     &trans     &trans     &kp BSLH
  &trans   &kp LG(A)  &trans       &kp LG(X)  &none                   &trans         &trans  &trans           &kp LC(Q) &kp F10 &kp LC(S)        &trans    &trans     &kp AMPS   &kp PIPE   &kp LSHFT
+            >;
+        };
+
+        layer_3 { // MGMT layer (to enable, press the key to the right of the NUM5 / to the left of the NUM6)
+            bindings = <
+ &to 1   &none    &none    &DSHOT      &WSHOT   &none     &none                                                                 &none   &none    &none    &none    &none     &none     &none
+ &to 2   &kp F11  &kp F12  &kp F13     &kp F14  &kp F15   &bt BT_SEL 0                                                          &none   &kp F16  &kp F17  &kp F18  &kp F19   &kp F20   &none
+ &none   &kp F1   &kp F2   &kp F3      &kp F4   &kp F5    &bt BT_SEL 1  &bt BT_CLR  &bootloader           &bootloader   &none   &none   &kp GRAVE &kp LBKT &kp RBKT &kp BSLH &none     &none
+ &tog 2  &none    &none    &none       &none    &none                               &none                 &none                         &none    &none    &none    &none     &none     &none
+ &none   &none    &none    &none       &none              &kp LGUI      &kp SPACE   &kp LCTRL             &none         &kp RSHFT &kp ENTER      &none    &none    &none     &none     &bl BL_TOG
             >;
         };
 
