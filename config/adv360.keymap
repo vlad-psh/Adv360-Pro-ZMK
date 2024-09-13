@@ -27,7 +27,7 @@
  &none           &kp Q       &kp W     &kp F      &kp P      &kp B     &none                                                                   &kp C_VOL_UP    &kp J    &kp M      &kp U      &kp Y      &kp SEMI  &kp EQUAL
  &mt LGUI TAB    &kp A       &kp R     &kp S      &kp T      &kp G     &none          &none      &kp LALT                &kp RS(TAB) &kp TAB   &kp C_VOL_DN    &kp H    &kp N      &kp E      &kp I      &kp O     &kp SQT
  &none           &kp Z       &kp X     &kp C      &kp D      &kp V                               &kp LCTRL               &kp RCTRL                             &kp K    &kp L      &kp COMMA  &kp DOT    &kp FSLH  &kp MINUS
- &kp LG(LC(LA(E))) &kp LG(A) &kp ESC   &kp LG(C)  &kp LG(V)            &l5_enter_tab  &kp SPACE  &kp LGUI                &kp RGUI    &kp RCTRL &mt RSHFT ENTER          &kp BSPC   &kp DEL    &kp UNDER  &none     &kp LG(LC(LA(R)))
+ &kp LG(LC(LA(E))) &kp LG(Z) &kp ESC   &kp LG(C)  &kp LG(V)            &l5_enter_tab  &kp SPACE  &kp LGUI                &kp RGUI    &kp RCTRL &mt RSHFT ENTER          &kp BSPC   &kp DEL    &kp UNDER  &none     &kp LG(LC(LA(R)))
             >;
         };
 
@@ -74,11 +74,11 @@
 
         layer_5 { // Movements+etc layer (to enable, press LEFT SHIFT button or Right-Thumb-2 key)
             bindings = <
- &to 0    &trans    &kp LT       &kp EQUAL  &kp GT      &trans      &none                                                   &trans  &trans     &trans    &kp LBKT   &kp RBKT   &trans     &trans
- &trans   &kp MINUS &kp N7       &kp N8     &kp N9      &kp PLUS    &kp LG(LS(N3))                                          &none   &kp CARET  &kp AMPS  &kp LBRC   &kp RBRC   &kp PRCNT  &none
- &trans   &kp N0    &kp N1       &kp N2     &kp N3      &kp DOT     &kp LG(LS(N4)) &trans  &trans           &trans  &trans  &none   &arr_left  &arr_down &arr_up    &arr_right &kp STAR   &none
- &trans   &kp SLASH &kp N4       &kp N5     &kp N6      &kp STAR                           &trans           &trans                  &kp EXCL   &kp AT    &kp HASH   &kp DOLLAR &kp BSLH   &kp PIPE
- &trans   &trans    &trans       &kp LG(X)  &none                   &trans         &trans  &trans           &kp LC(Q) &kp F10 &kp LC(S)        &trans    &trans     &BRCPAIR   &BKTPAIR   &kp LSHFT
+ &to 0    &none      &kp LBRC     &kp RBRC   &none       &none       &none                                                   &trans  &trans     &kp TILDE &kp LBKT   &kp RBKT   &trans     &trans
+ &trans   &BRCPAIR   &kp N7       &kp N8     &kp N9      &kp DOLLAR  &kp LG(LS(N3))                                          &none   &kp CARET  &kp STAR  &kp PLUS   &kp MINUS  &trans     &trans
+ &trans   &PARENPAIR &kp N1       &kp N2     &kp N3      &kp HASH    &kp LG(LS(N4)) &trans  &trans           &trans  &trans  &none   &arr_left  &arr_down &arr_up    &arr_right &kp N0     &kp GRAVE
+ &trans   &BKTPAIR   &kp N4       &kp N5     &kp N6      &kp PRCNT                          &trans           &trans                  &kp EXCL   &kp AT    &trans     &trans     &trans     &kp BSLH
+ &trans   &kp LG(A)  &trans       &kp LG(X)  &none                   &trans         &trans  &trans           &kp LC(Q) &kp F10 &kp LC(S)        &trans    &trans     &kp AMPS   &kp PIPE   &kp LSHFT
             >;
         };
 
