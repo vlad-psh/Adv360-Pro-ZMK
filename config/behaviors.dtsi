@@ -55,3 +55,11 @@ l2_enter_tab: layer2__tap_enter__morph_tab {
     mods = <(MOD_LGUI|MOD_RGUI)>;
     keep-mods = <(MOD_LGUI|MOD_RGUI)>;
 };
+
+ctrl_c_d: ctrl_c_d {
+    compatible = "zmk,behavior-mod-morph";
+    label = "ctrl_c_d";
+    #binding-cells = <0>;
+    bindings = <&kp LC(C)>, <&kp LC(D)>;
+    mods = <(MOD_LGUI)>;
+};

@@ -23,11 +23,11 @@
 
         default_layer_0 { // Default COLEMAK layer
             bindings = <
- &kp LG(Q)       &none       &kp LT    &kp EQUAL  &kp GT     &none     &sl 3                                                                   &sl 3           &none    &none      &kp LPAR   &kp RPAR   &none     &none
+ &ctrl_c_d       &none       &kp LT    &kp EQUAL  &kp GT     &none     &sl 3                                                                   &sl 3           &none    &none      &kp LPAR   &kp RPAR   &none     &none
  &none           &kp Q       &kp W     &kp F      &kp P      &kp B     &none                                                                   &kp C_VOL_UP    &kp J    &kp M      &kp U      &kp Y      &kp SEMI  &kp EQUAL
- &mt LGUI TAB    &kp A       &kp R     &kp S      &kp T      &kp G     &none          &none      &kp LALT                &kp RS(TAB) &kp TAB   &kp C_VOL_DN    &kp H    &kp N      &kp E      &kp I      &kp O     &kp SQT
+ &kp TAB         &kp A       &kp R     &kp S      &kp T      &kp G     &none          &none      &kp LALT                &kp RS(TAB) &kp TAB   &kp C_VOL_DN    &kp H    &kp N      &kp E      &kp I      &kp O     &kp SQT
  &none           &kp Z       &kp X     &kp C      &kp D      &kp V                               &kp LCTRL               &kp RCTRL                             &kp K    &kp L      &kp COMMA  &kp DOT    &kp FSLH  &kp MINUS
- &kp LG(LC(LA(E))) &kp LG(Z) &kp ESC   &kp LG(C)  &kp LG(V)            &l2_enter_tab  &kp SPACE  &kp LGUI                &kp RGUI    &kp RCTRL &mt RSHFT ENTER          &kp BSPC   &kp DEL    &kp UNDER  &none     &kp LG(LC(LA(R)))
+ &kp LG(LC(LA(E))) &kp LG(Z) &kp ESC   &kp LG(C)  &kp LG(V)            &mt LGUI ENTER &kp SPACE  &kp LGUI                &kp RGUI    &mo 2     &mt RSHFT ENTER          &kp BSPC   &kp DEL    &kp UNDER  &none     &kp LG(LC(LA(R)))
             >;
         };
 
